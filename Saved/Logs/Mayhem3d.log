@@ -1,0 +1,1199 @@
+﻿Log file open, 05/26/15 20:00:21
+LogInit:Display: Running engine for game: Mayhem3d
+LogInit: Version: 4.7.1-0+++depot+UE4-Releases+4.7
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Mar  3 2015 16:19:39
+LogInit: Compiled with Visual C++: 18.00.30723.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Users/Greg/Desktop/UE4/UnrealEngine-release/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2015.05.26-08.00.21:183][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.05.26-08.00.21:215][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.26-08.00.21:231][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.26-08.00.21:246][  0]LogInit: Object subsystem initialized
+[2015.05.26-08.00.21:271][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.26-08.00.21:271][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.26-08.00.21:280][  0]LogInit: Computer: GREG-PC
+[2015.05.26-08.00.21:280][  0]LogInit: User: Greg
+[2015.05.26-08.00.21:280][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.05.26-08.00.21:280][  0]LogInit: High frequency timer resolution =3.531914 MHz
+[2015.05.26-08.00.21:280][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2015.05.26-08.00.21:281][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.26-08.00.21:281][  0]LogMemory: Process Physical Memory: 46.46 MB used, 46.46 MB peak
+[2015.05.26-08.00.21:281][  0]LogMemory: Process Virtual Memory: 23.32 MB used, 23.32 MB peak
+[2015.05.26-08.00.21:281][  0]LogMemory: Physical Memory: 4390.66 MB used, 8162.53 MB total
+[2015.05.26-08.00.21:281][  0]LogMemory: Virtual Memory: 277.77 MB used, 8388608.00 MB total
+[2015.05.26-08.00.21:319][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6570 (Feature Level 11_0)
+[2015.05.26-08.00.21:319][  0]LogD3D11RHI: Adapter has 2030MB of dedicated video memory, 0MB of dedicated system memory, and 3825MB of shared system memory, 2 output[s]
+[2015.05.26-08.00.21:327][  0]LogD3D11RHI: Found D3D11 adapter 1: ATI Radeon HD 5570 (Feature Level 11_0)
+[2015.05.26-08.00.21:327][  0]LogD3D11RHI: Adapter has 1010MB of dedicated video memory, 0MB of dedicated system memory, and 3825MB of shared system memory, 2 output[s]
+[2015.05.26-08.00.21:327][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.26-08.00.21:335][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.26-08.00.21:343][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.05.26-08.00.21:429][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.26-08.00.21:601][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.26-08.00.24:232][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-08.00.24:881][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-08.00.24:956][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.26-08.00.24:956][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
+[2015.05.26-08.00.24:956][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../ToyBox_VerticalSlice_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.26-08.00.24:956][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.26-08.00.24:956][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.26-08.00.24:956][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2015.05.26-08.00.24:968][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2015.05.26-08.00.24:968][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2015.05.26-08.00.24:968][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2015.05.26-08.00.25:528][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.26-08.00.25:528][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.26-08.00.27:128][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.26-08.00.27:218][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.26-08.00.33:207][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.26-08.00.33:443][  0]SourceControl: Info Source control is disabled
+[2015.05.26-08.00.33:444][  0]SourceControl: Info Source control is disabled
+[2015.05.26-08.00.33:444][  0]SourceControl: Info Source control is disabled
+[2015.05.26-08.00.33:444][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.26-08.00.33:444][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.26-08.00.33:454][  0]SourceControl: Info Source control is disabled
+[2015.05.26-08.00.33:731][  0]LogObj: 24224 objects as part of root set at end of initial load.
+[2015.05.26-08.00.33:731][  0]LogUObjectAllocator: 5135216 out of 0 bytes used by permanent object pool.
+[2015.05.26-08.00.33:852][  0]LogEngine: Initializing Engine...
+[2015.05.26-08.00.36:134][  0]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.26-08.00.36:213][  0]LogInit: FAudioDevice initialized.
+[2015.05.26-08.00.36:254][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.26-08.00.36:290][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB ../../../../../ToyBox_VerticalSlice_2/DerivedDataCache/Boot.ddc.
+[2015.05.26-08.00.36:298][  0]LogInit: Texture streaming: Enabled
+[2015.05.26-08.00.36:755][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.26-08.00.36:755][  0]LogAnalytics: ET APIKey = UnrealEngine.Release. APIServer = http://etsource.epicgames.com/ET2/. AppVersion = 4.7.1-0+++depot+UE4-Releases+4.7
+[2015.05.26-08.00.36:755][  0]LogAnalytics: SetUserId ce9ea13c497ef03941d9d7b554771940||37834ffb-7ee6-4849-b050-b6cd6d834748
+[2015.05.26-08.00.36:755][  0]LogAnalytics: AnalyticsET::StartSession [UnrealEngine.Release]
+[2015.05.26-08.00.36:782][  0]LogInit: Transaction tracking system initialized
+[2015.05.26-08.00.36:969][  0]BlueprintLog: New page: Editor Load
+[2015.05.26-08.00.37:004][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2015.05.26-08.00.37:005][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.26-08.00.37:790][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-08.00.38:292][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-08.00.38:764][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.26-08.00.38:765][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.26-08.00.38:918][  0]LogConsoleResponse:Display: 
+[2015.05.26-08.00.39:816][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.26-08.00.40:356][  0]SourceControl: Info Source control is disabled
+[2015.05.26-08.00.40:356][  0]Cmd: MAP LOAD FILE="../../../../../ToyBox_VerticalSlice_2/Content/Maps/MiniTDmatch_2_NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.26-08.00.40:356][  0]LightingResults: New page: Lighting Build
+[2015.05.26-08.00.40:372][  0]MapCheck: New page: Map Check
+[2015.05.26-08.00.40:372][  0]LightingResults: New page: Lighting Build
+[2015.05.26-08.00.40:393][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015DC2520
+[2015.05.26-08.00.42:605][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Materials/TargetingMaterial'
+[2015.05.26-08.00.42:605][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.AOEHealBall_C Referenced by StaticMeshComponent_382
+[2015.05.26-08.00.42:605][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Materials/TargetingMaterial' while loading ../../../../../ToyBox_VerticalSlice_2/Content/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.uasset.
+[2015.05.26-08.00.42:605][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.AOEHealBall_C Referenced by StaticMeshComponent_382
+[2015.05.26-08.00.42:605][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall : Can't find file for asset. /Game/ThirdPersonBP/Materials/TargetingMaterial
+[2015.05.26-08.00.43:689][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Materials/TargetingMaterial'
+[2015.05.26-08.00.43:689][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Materials/TargetingMaterial' while loading ../../../../../ToyBox_VerticalSlice_2/Content/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.uasset.
+[2015.05.26-08.00.43:689][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall : Can't find file for asset. /Game/ThirdPersonBP/Materials/TargetingMaterial
+[2015.05.26-08.00.43:694][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Materials/TargetingMaterial'
+[2015.05.26-08.00.43:694][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Materials/TargetingMaterial' while loading ../../../../../ToyBox_VerticalSlice_2/Content/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.uasset.
+[2015.05.26-08.00.43:694][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall : Can't find file for asset. /Game/ThirdPersonBP/Materials/TargetingMaterial
+[2015.05.26-08.00.46:622][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Materials/TargetingMaterial'
+[2015.05.26-08.00.46:622][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Materials/TargetingMaterial' while loading ../../../../../ToyBox_VerticalSlice_2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.05.26-08.00.46:622][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/ThirdPersonBP/Materials/TargetingMaterial
+[2015.05.26-08.00.46:628][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Materials/TargetingMaterial'
+[2015.05.26-08.00.46:628][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Materials/TargetingMaterial' while loading ../../../../../ToyBox_VerticalSlice_2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.05.26-08.00.46:629][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/ThirdPersonBP/Materials/TargetingMaterial
+[2015.05.26-08.00.47:423][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/OBJ/lambert3'
+[2015.05.26-08.00.47:423][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/OBJ/lambert3' while loading ../../../../../ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Map_Entirely.uasset.
+[2015.05.26-08.00.47:423][  0]LoadErrors:Error: Error /Game/StarterContent/Materials/OBJ/Map_Entirely : Can't find file for asset. /Game/StarterContent/Materials/OBJ/lambert3
+[2015.05.26-08.00.47:424][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/OBJ/lambert3'
+[2015.05.26-08.00.47:424][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/OBJ/lambert3' while loading ../../../../../ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Map_Entirely.uasset.
+[2015.05.26-08.00.47:424][  0]LoadErrors:Error: Error /Game/StarterContent/Materials/OBJ/Map_Entirely : Can't find file for asset. /Game/StarterContent/Materials/OBJ/lambert3
+[2015.05.26-08.00.47:901][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/OBJ/lambert3'
+[2015.05.26-08.00.47:901][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/OBJ/lambert3.lambert3 Referenced by Map_Entirely
+[2015.05.26-08.00.47:901][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/OBJ/lambert3' while loading NULL.
+[2015.05.26-08.00.47:902][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/OBJ/lambert3.lambert3 Referenced by Map_Entirely
+[2015.05.26-08.00.48:674][  0]LogStaticMesh: Building static mesh Shape_Torus...
+[2015.05.26-08.00.48:724][  0]LogStaticMesh: Built static mesh [61.177593ms] /Game/StarterContent/Shapes/Shape_Torus.Shape_Torus
+[2015.05.26-08.00.48:745][  0]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2015.05.26-08.00.49:914][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.26-08.00.49:914][  0]LogAIModule: Creating AISystem for world MiniTDmatch_2_NewMap
+[2015.05.26-08.00.49:915][  0]Cmd: MAP CHECKDEP
+[2015.05.26-08.00.49:915][  0]MapCheck: New page: MiniTDmatch_2_NewMap - May 27, 2015, 8:00:49 AM
+[2015.05.26-08.00.50:292][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 376.811ms to complete.
+[2015.05.26-08.00.50:292][  0]LogFileHelpers: Loading map 'MiniTDmatch_2_NewMap' took 9.947
+[2015.05.26-08.00.51:242][  0]LogCollectionManager: Loaded 0 collections in 0.002100 seconds
+[2015.05.26-08.00.51:302][  0]LogContentBrowser: Native class hierarchy populated in 0.0602 seconds. Added 1695 classes and 259 folders.
+[2015.05.26-08.00.51:444][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0039 seconds. Added 1 classes and 2 folders.
+[2015.05.26-08.00.51:495][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.26-08.00.51:497][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.26-08.00.51:518][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.26-08.00.51:550][  0]LogLoad: Full Startup: 32.41 seconds (BP compile: 3.34 seconds)
+[2015.05.26-08.00.52:038][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.05.26-08.00.52:462][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x600 (Frame:2).
+[2015.05.26-08.00.56:464][ 12]LogAssetRegistry: Asset discovery search completed in 19.5310 seconds
+[2015.05.26-08.00.56:827][ 13]AssetReimport: New page: Outstanding source content changes 8:00:56 AM
+[2015.05.26-08.00.57:889][ 13]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_D.jpg]
+[2015.05.26-08.00.57:889][ 13]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_D.jpg)
+[2015.05.26-08.01.30:387][ 13]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.30:621][ 14]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_N.jpg]
+[2015.05.26-08.01.30:621][ 14]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_N.jpg)
+[2015.05.26-08.01.30:848][ 14]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.31:444][ 15]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_OCC.jpg]
+[2015.05.26-08.01.31:445][ 15]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_OCC.jpg)
+[2015.05.26-08.01.31:979][ 15]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.32:905][ 16]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_D.jpg]
+[2015.05.26-08.01.32:906][ 16]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_D.jpg)
+[2015.05.26-08.01.33:790][ 16]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.33:965][ 17]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_N.jpg]
+[2015.05.26-08.01.33:965][ 17]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_N.jpg)
+[2015.05.26-08.01.34:144][ 17]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.34:466][ 18]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_OCC.jpg]
+[2015.05.26-08.01.34:466][ 18]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_OCC.jpg)
+[2015.05.26-08.01.34:807][ 18]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.34:922][ 19]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_D.jpg]
+[2015.05.26-08.01.34:922][ 19]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_D.jpg)
+[2015.05.26-08.01.35:046][ 19]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.35:137][ 20]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_N.jpg]
+[2015.05.26-08.01.35:137][ 20]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_N.jpg)
+[2015.05.26-08.01.35:217][ 20]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.35:328][ 21]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_OCC.jpg]
+[2015.05.26-08.01.35:328][ 21]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_OCC.jpg)
+[2015.05.26-08.01.35:434][ 21]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.36:412][ 22]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_D.jpg]
+[2015.05.26-08.01.36:412][ 22]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_D.jpg)
+[2015.05.26-08.01.37:420][ 22]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.37:589][ 23]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_N.jpg]
+[2015.05.26-08.01.37:589][ 23]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_N.jpg)
+[2015.05.26-08.01.37:761][ 23]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.38:272][ 24]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_OCC.jpg]
+[2015.05.26-08.01.38:272][ 24]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_OCC.jpg)
+[2015.05.26-08.01.38:752][ 24]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.39:717][ 25]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_D.jpg]
+[2015.05.26-08.01.39:717][ 25]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_D.jpg)
+[2015.05.26-08.01.40:659][ 25]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.40:859][ 26]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_N.jpg]
+[2015.05.26-08.01.40:859][ 26]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_N.jpg)
+[2015.05.26-08.01.41:039][ 26]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.41:457][ 27]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_OCC.jpg]
+[2015.05.26-08.01.41:457][ 27]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_OCC.jpg)
+[2015.05.26-08.01.41:882][ 27]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.42:067][ 28]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_N.jpg]
+[2015.05.26-08.01.42:067][ 28]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_N.jpg)
+[2015.05.26-08.01.42:252][ 28]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.42:687][ 29]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_OCC.jpg]
+[2015.05.26-08.01.42:687][ 29]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_OCC.jpg)
+[2015.05.26-08.01.43:103][ 29]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.44:016][ 30]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_S.jpg]
+[2015.05.26-08.01.44:016][ 30]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_S.jpg)
+[2015.05.26-08.01.44:974][ 30]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.45:053][ 31]LogStaticMesh: Building static mesh platform_bottom_r...
+[2015.05.26-08.01.45:070][ 31]LogStaticMesh: Built static mesh [27.617886ms] /Game/Materials/OBJ/platform_bottom_r.platform_bottom_r
+[2015.05.26-08.01.45:085][ 31]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Materials/OBJ/platform_bottom_r.FBX]
+[2015.05.26-08.01.45:100][ 31]LogFbx: Loading FBX Scene from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Materials/OBJ/platform_bottom_r.FBX
+[2015.05.26-08.01.45:112][ 31]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.26-08.01.45:119][ 31]LogFbx: == Initial material list:
+[2015.05.26-08.01.45:119][ 31]LogFbx: 0: 02 - Bottom
+[2015.05.26-08.01.45:119][ 31]LogFbx: 1: 01 - Floor
+[2015.05.26-08.01.45:119][ 31]LogFbx: == After sorting:
+[2015.05.26-08.01.45:119][ 31]LogFbx: 0: 02 - Bottom
+[2015.05.26-08.01.45:119][ 31]LogFbx: 1: 01 - Floor
+[2015.05.26-08.01.45:119][ 31]LogFbx: == Mapping table:
+[2015.05.26-08.01.45:119][ 31]LogFbx:   sort 0 -> 0
+[2015.05.26-08.01.45:119][ 31]LogFbx:   sort 1 -> 1
+[2015.05.26-08.01.45:120][ 31]LogStaticMesh: Building static mesh platform_bottom_r...
+[2015.05.26-08.01.45:135][ 31]LogStaticMesh: Built static mesh [15.344372ms] /Game/Materials/OBJ/platform_bottom_r.platform_bottom_r
+[2015.05.26-08.01.45:143][ 31]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.45:370][ 31]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Textures/Cartoon Sun.tga]
+[2015.05.26-08.01.45:370][ 31]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Textures/Cartoon Sun.tga)
+[2015.05.26-08.01.45:657][ 31]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.46:233][ 32]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Textures/T_Sun_Sheet_Cartoon.tga]
+[2015.05.26-08.01.46:233][ 32]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Textures/T_Sun_Sheet_Cartoon.tga)
+[2015.05.26-08.01.46:790][ 32]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.46:915][ 33]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/handpaintedtextures_stonefloor8_N.png]
+[2015.05.26-08.01.46:916][ 33]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/handpaintedtextures_stonefloor8_N.png)
+[2015.05.26-08.01.47:027][ 33]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.47:862][ 34]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/handpaintedtextures_stonefloor8_OCC.png]
+[2015.05.26-08.01.47:862][ 34]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/handpaintedtextures_stonefloor8_OCC.png)
+[2015.05.26-08.01.48:603][ 34]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.49:490][ 35]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Ambient_Occlusion.png]
+[2015.05.26-08.01.49:490][ 35]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Ambient_Occlusion.png)
+[2015.05.26-08.01.50:364][ 35]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.53:648][ 36]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_diffuse.png]
+[2015.05.26-08.01.53:649][ 36]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_diffuse.png)
+[2015.05.26-08.01.56:904][ 36]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.58:031][ 37]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Height.png]
+[2015.05.26-08.01.58:031][ 37]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Height.png)
+[2015.05.26-08.01.59:121][ 37]LogEditorFactories: -- imported successfully
+[2015.05.26-08.01.59:543][ 38]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_normal.png]
+[2015.05.26-08.01.59:544][ 38]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_normal.png)
+[2015.05.26-08.02.00:036][ 38]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.00:999][ 39]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Specular.png]
+[2015.05.26-08.02.00:999][ 39]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Specular.png)
+[2015.05.26-08.02.01:977][ 39]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.02:982][ 40]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Ambient_Occlusion.png]
+[2015.05.26-08.02.02:983][ 40]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Ambient_Occlusion.png)
+[2015.05.26-08.02.03:895][ 40]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.06:742][ 41]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_diffuse.png]
+[2015.05.26-08.02.06:742][ 41]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_diffuse.png)
+[2015.05.26-08.02.09:580][ 41]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.10:629][ 42]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Height.png]
+[2015.05.26-08.02.10:629][ 42]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Height.png)
+[2015.05.26-08.02.11:614][ 42]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.12:077][ 43]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_normal.png]
+[2015.05.26-08.02.12:077][ 43]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_normal.png)
+[2015.05.26-08.02.12:600][ 43]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.13:415][ 44]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Specular.png]
+[2015.05.26-08.02.13:415][ 44]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Specular.png)
+[2015.05.26-08.02.14:271][ 44]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.15:217][ 45]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Ambient_Occlusion.bmp]
+[2015.05.26-08.02.15:217][ 45]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Ambient_Occlusion.bmp)
+[2015.05.26-08.02.15:918][ 45]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.19:209][ 46]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_diffuse.bmp]
+[2015.05.26-08.02.19:209][ 46]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_diffuse.bmp)
+[2015.05.26-08.02.22:488][ 46]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.23:725][ 47]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Height.bmp]
+[2015.05.26-08.02.23:725][ 47]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Height.bmp)
+[2015.05.26-08.02.24:997][ 47]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.25:481][ 48]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_normal.bmp]
+[2015.05.26-08.02.25:482][ 48]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_normal.bmp)
+[2015.05.26-08.02.25:953][ 48]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.27:086][ 49]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Specular.bmp]
+[2015.05.26-08.02.27:086][ 49]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Specular.bmp)
+[2015.05.26-08.02.28:157][ 49]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.29:442][ 50]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/T_Tech_Hex_Tile_M.TGA]
+[2015.05.26-08.02.29:443][ 50]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/T_Tech_Hex_Tile_M.TGA)
+[2015.05.26-08.02.30:661][ 50]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.30:691][ 51]LogStaticMesh: Building static mesh platform_bottom_r...
+[2015.05.26-08.02.30:716][ 51]LogStaticMesh: Built static mesh [25.348013ms] /Game/StarterContent/Materials/OBJ/platform_bottom_r.platform_bottom_r
+[2015.05.26-08.02.30:753][ 51]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/platform_bottom_r.FBX]
+[2015.05.26-08.02.30:765][ 51]LogFbx: Loading FBX Scene from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/platform_bottom_r.FBX
+[2015.05.26-08.02.30:775][ 51]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.26-08.02.30:782][ 51]LogFbx: == Initial material list:
+[2015.05.26-08.02.30:783][ 51]LogFbx: 0: 02 - Bottom
+[2015.05.26-08.02.30:783][ 51]LogFbx: 1: 01 - Floor
+[2015.05.26-08.02.30:783][ 51]LogFbx: == After sorting:
+[2015.05.26-08.02.30:783][ 51]LogFbx: 0: 02 - Bottom
+[2015.05.26-08.02.30:783][ 51]LogFbx: 1: 01 - Floor
+[2015.05.26-08.02.30:783][ 51]LogFbx: == Mapping table:
+[2015.05.26-08.02.30:783][ 51]LogFbx:   sort 0 -> 0
+[2015.05.26-08.02.30:783][ 51]LogFbx:   sort 1 -> 1
+[2015.05.26-08.02.30:808][ 51]LogStaticMesh: Building static mesh platform_bottom_r...
+[2015.05.26-08.02.30:824][ 51]LogStaticMesh: Built static mesh [40.598099ms] /Game/StarterContent/Materials/OBJ/platform_bottom_r.platform_bottom_r
+[2015.05.26-08.02.30:832][ 51]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.31:017][ 52]LogStaticMesh: Building static mesh LongPiece_Front...
+[2015.05.26-08.02.31:085][ 52]LogStaticMesh: Built static mesh [68.011284ms] /Game/StarterContent/Materials/OBJ/Aiden/LongPiece_Front.LongPiece_Front
+[2015.05.26-08.02.31:161][ 52]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/LongPiece_Front.fbx]
+[2015.05.26-08.02.31:175][ 52]LogFbx: Loading FBX Scene from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/LongPiece_Front.fbx
+[2015.05.26-08.02.31:199][ 52]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.26-08.02.31:504][ 52]LogFbx: == Initial material list:
+[2015.05.26-08.02.31:504][ 52]LogFbx: 0: lambert1
+[2015.05.26-08.02.31:504][ 52]LogFbx: == After sorting:
+[2015.05.26-08.02.31:504][ 52]LogFbx: 0: lambert1
+[2015.05.26-08.02.31:504][ 52]LogFbx: == Mapping table:
+[2015.05.26-08.02.31:504][ 52]LogFbx:   sort 0 -> 0
+[2015.05.26-08.02.31:506][ 52]LogStaticMesh: Building static mesh LongPiece_Front...
+[2015.05.26-08.02.31:582][ 52]LogStaticMesh: Built static mesh [77.085114ms] /Game/StarterContent/Materials/OBJ/Aiden/LongPiece_Front.LongPiece_Front
+[2015.05.26-08.02.31:606][ 52]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.31:690][ 53]LogStaticMesh: Building static mesh LongPiece_reverse...
+[2015.05.26-08.02.31:761][ 53]LogStaticMesh: Built static mesh [91.253922ms] /Game/StarterContent/Materials/OBJ/Aiden/LongPiece_reverse.LongPiece_reverse
+[2015.05.26-08.02.31:772][ 53]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/LongPiece_reverse.fbx]
+[2015.05.26-08.02.31:788][ 53]LogFbx: Loading FBX Scene from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/LongPiece_reverse.fbx
+[2015.05.26-08.02.31:814][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.26-08.02.32:144][ 53]LogFbx: == Initial material list:
+[2015.05.26-08.02.32:144][ 53]LogFbx: 0: lambert1
+[2015.05.26-08.02.32:144][ 53]LogFbx: == After sorting:
+[2015.05.26-08.02.32:144][ 53]LogFbx: 0: lambert1
+[2015.05.26-08.02.32:144][ 53]LogFbx: == Mapping table:
+[2015.05.26-08.02.32:144][ 53]LogFbx:   sort 0 -> 0
+[2015.05.26-08.02.32:183][ 53]LogStaticMesh: Building static mesh LongPiece_reverse...
+[2015.05.26-08.02.32:250][ 53]LogStaticMesh: Built static mesh [104.276604ms] /Game/StarterContent/Materials/OBJ/Aiden/LongPiece_reverse.LongPiece_reverse
+[2015.05.26-08.02.32:290][ 53]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.32:335][ 54]LogStaticMesh: Building static mesh spire_glassTube_obj_v01...
+[2015.05.26-08.02.32:345][ 54]LogStaticMesh: Built static mesh [9.988635ms] /Game/StarterContent/Materials/OBJ/Aiden/spire_glassTube_obj_v01.spire_glassTube_obj_v01
+[2015.05.26-08.02.32:388][ 54]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/spire_glassTube_obj_v01.fbx]
+[2015.05.26-08.02.32:401][ 54]LogFbx: Loading FBX Scene from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/spire_glassTube_obj_v01.fbx
+[2015.05.26-08.02.32:412][ 54]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.26-08.02.32:464][ 54]LogFbx: == Initial material list:
+[2015.05.26-08.02.32:464][ 54]LogFbx: 0: lambert1
+[2015.05.26-08.02.32:464][ 54]LogFbx: == After sorting:
+[2015.05.26-08.02.32:464][ 54]LogFbx: 0: lambert1
+[2015.05.26-08.02.32:464][ 54]LogFbx: == Mapping table:
+[2015.05.26-08.02.32:464][ 54]LogFbx:   sort 0 -> 0
+[2015.05.26-08.02.32:508][ 54]LogStaticMesh: Building static mesh spire_glassTube_obj_v01...
+[2015.05.26-08.02.32:516][ 54]LogStaticMesh: Built static mesh [51.132050ms] /Game/StarterContent/Materials/OBJ/Aiden/spire_glassTube_obj_v01.spire_glassTube_obj_v01
+[2015.05.26-08.02.32:524][ 54]LogEditorFactories: -- imported successfully
+[2015.05.26-08.02.32:705][ 55]LogStaticMesh: Building static mesh spire_obj_v03...
+[2015.05.26-08.02.33:012][ 55]LogStaticMesh: Built static mesh [349.413086ms] /Game/StarterContent/Materials/OBJ/Aiden/spire_obj_v03.spire_obj_v03
+[2015.05.26-08.02.33:048][ 55]LogEditorFactories: Performing atomic reimport of [C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/spire_obj_v03.fbx]
+[2015.05.26-08.02.33:066][ 55]LogFbx: Loading FBX Scene from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/spire_obj_v03.fbx
+[2015.05.26-08.02.33:084][ 55]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.26-08.02.34:847][ 55]LogFbx: == Initial material list:
+[2015.05.26-08.02.34:847][ 55]LogFbx: 0: lambert1
+[2015.05.26-08.02.34:847][ 55]LogFbx: == After sorting:
+[2015.05.26-08.02.34:847][ 55]LogFbx: 0: lambert1
+[2015.05.26-08.02.34:847][ 55]LogFbx: == Mapping table:
+[2015.05.26-08.02.34:847][ 55]LogFbx:   sort 0 -> 0
+[2015.05.26-08.02.34:852][ 55]LogStaticMesh: Building static mesh spire_obj_v03...
+[2015.05.26-08.02.35:166][ 55]LogStaticMesh: Built static mesh [317.467529ms] /Game/StarterContent/Materials/OBJ/Aiden/spire_obj_v03.spire_obj_v03
+[2015.05.26-08.05.14:342][ 55]LogEditorFactories: -- imported successfully
+[2015.05.26-08.05.14:393][ 56]AssetReimport: Info Reimported asset ConcreteBare0348_2_D from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_D.jpg.
+[2015.05.26-08.05.14:393][ 56]AssetReimport: Info Reimported asset ConcreteBare0348_2_N from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_N.jpg.
+[2015.05.26-08.05.14:393][ 56]AssetReimport: Info Reimported asset ConcreteBare0348_2_OCC from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_OCC.jpg.
+[2015.05.26-08.05.14:393][ 56]AssetReimport: Info Reimported asset ConcreteBare0371_1_D from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_D.jpg.
+[2015.05.26-08.05.14:393][ 56]AssetReimport: Info Reimported asset ConcreteBare0371_1_N from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_N.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset ConcreteBare0371_1_OCC from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_OCC.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset ConcreteDirty0323_1_D from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_D.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset ConcreteDirty0323_1_N from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_N.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset ConcreteDirty0323_1_OCC from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_OCC.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset FloorHerringbone0066_1_D from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_D.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset FloorHerringbone0066_1_N from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_N.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset FloorHerringbone0066_1_OCC from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_OCC.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset FloorsHexagonal0028_1_D from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_D.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset FloorsHexagonal0028_1_N from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_N.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset FloorsHexagonal0028_1_OCC from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_OCC.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset FloorsMedieval0034_1_N from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_N.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset FloorsMedieval0034_1_OCC from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_OCC.jpg.
+[2015.05.26-08.05.14:394][ 56]AssetReimport: Info Reimported asset FloorsMedieval0034_1_S from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_S.jpg.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset platform_bottom_r from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Materials/OBJ/platform_bottom_r.FBX.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset Cartoon_Sun from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Textures/Cartoon Sun.tga.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset T_Sun_Sheet_Cartoon from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Textures/T_Sun_Sheet_Cartoon.tga.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset handpaintedtextures_stonefloor8_N from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/handpaintedtextures_stonefloor8_N.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset handpaintedtextures_stonefloor8_OCC from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/handpaintedtextures_stonefloor8_OCC.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_BloodiedFloorTileHex_Ambient_Occlusion from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Ambient_Occlusion.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_BloodiedFloorTileHex_diffuse from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_diffuse.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_BloodiedFloorTileHex_Height from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Height.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_BloodiedFloorTileHex_normal from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_normal.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_BloodiedFloorTileHex_Specular from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Specular.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_BloodiedFloorTile_Ambient_Occlusion from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Ambient_Occlusion.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_BloodiedFloorTile_diffuse from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_diffuse.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_BloodiedFloorTile_Height from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Height.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_BloodiedFloorTile_normal from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_normal.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_BloodiedFloorTile_Specular from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Specular.png.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_HexTiles_Ambient_Occlusion from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Ambient_Occlusion.bmp.
+[2015.05.26-08.05.14:395][ 56]AssetReimport: Info Reimported asset M_HexTiles_diffuse from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_diffuse.bmp.
+[2015.05.26-08.05.14:396][ 56]AssetReimport: Info Reimported asset M_HexTiles_Height from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Height.bmp.
+[2015.05.26-08.05.14:396][ 56]AssetReimport: Info Reimported asset M_HexTiles_normal from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_normal.bmp.
+[2015.05.26-08.05.14:396][ 56]AssetReimport: Info Reimported asset M_HexTiles_Specular from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Specular.bmp.
+[2015.05.26-08.05.14:396][ 56]AssetReimport: Info Reimported asset T_Tech_Hex_Tile_M from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/Textures/Stylized/T_Tech_Hex_Tile_M.TGA.
+[2015.05.26-08.05.14:396][ 56]AssetReimport: Info Reimported asset platform_bottom_r from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/platform_bottom_r.FBX.
+[2015.05.26-08.05.14:396][ 56]AssetReimport: Info Reimported asset LongPiece_Front from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/LongPiece_Front.fbx.
+[2015.05.26-08.05.14:396][ 56]AssetReimport: Info Reimported asset LongPiece_reverse from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/LongPiece_reverse.fbx.
+[2015.05.26-08.05.14:396][ 56]AssetReimport: Info Reimported asset spire_glassTube_obj_v01 from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/spire_glassTube_obj_v01.fbx.
+[2015.05.26-08.05.14:396][ 56]AssetReimport: Info Reimported asset spire_obj_v03 from C:/Users/Greg/Desktop/ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/Aiden/spire_obj_v03.fbx.
+[2015.05.26-08.05.44:597][455]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-08.05.44:597][455]LogPlayLevel: [PIE] Compiling MiniTDmatch_2_NewMap before PIE...
+[2015.05.26-08.05.44:942][455]LogPlayLevel: PIE:  Blueprint regeneration took 347 ms (1 blueprints)
+[2015.05.26-08.05.44:943][455]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 8:05:44 AM)
+[2015.05.26-08.05.44:994][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:994][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:994][455]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:994][455]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:995][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:995][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:995][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:995][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:995][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:995][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:996][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:996][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:996][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:996][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:996][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:996][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:997][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.44:997][455]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.05.45:019][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067934s)
+[2015.05.26-08.05.45:020][455]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2015.05.26-08.05.45:020][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap (0.068905s)
+[2015.05.26-08.05.45:094][455]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.26-08.05.45:097][455]LogAIModule: Creating AISystem for world MiniTDmatch_2_NewMap
+[2015.05.26-08.05.45:105][455]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 0) at 2015.05.26-20.05.45
+[2015.05.26-08.05.45:106][455]LogWorld: Bringing up level for play took: 0.008555
+[2015.05.26-08.05.45:119][455]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap 1.258
+[2015.05.26-08.05.47:479][618]LogScript:Warning: Accessed None 'AbilityTarget'
+	ThirdPersonCharacter_C /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0DC5
+[2015.05.26-08.05.47:479][618]PIE:Error: Error Accessed None 'AbilityTarget' from node ReturnNode in blueprint ThirdPersonCharacter
+[2015.05.26-08.05.51:647][925]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000235CEDE0
+[2015.05.26-08.05.57:467][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map_Entirely)
+[2015.05.26-08.06.05:099][294]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-08.06.05:099][294]LogPlayLevel: [PIE] Compiling MiniTDmatch_2_NewMap before PIE...
+[2015.05.26-08.06.05:302][294]LogPlayLevel: PIE:  Blueprint regeneration took 203 ms (1 blueprints)
+[2015.05.26-08.06.05:361][294]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 8:06:05 AM)
+[2015.05.26-08.06.05:402][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:402][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:402][294]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:402][294]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:403][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:403][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:403][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:403][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:403][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:403][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:404][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:404][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:404][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:404][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:404][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:404][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:405][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:405][294]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.05:427][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064375s)
+[2015.05.26-08.06.05:427][294]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2015.05.26-08.06.05:427][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap (0.065252s)
+[2015.05.26-08.06.05:455][294]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.26-08.06.05:457][294]LogAIModule: Creating AISystem for world MiniTDmatch_2_NewMap
+[2015.05.26-08.06.05:463][294]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 0) at 2015.05.26-20.06.05
+[2015.05.26-08.06.05:464][294]LogWorld: Bringing up level for play took: 0.006416
+[2015.05.26-08.06.05:565][294]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.05.26-08.06.05:640][294]LogInit: WinSock: I am Greg-PC (192.168.1.100:0)
+[2015.05.26-08.06.05:656][294]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2015.05.26-08.06.05:689][294]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap -0.155
+[2015.05.26-08.06.05:710][294]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 8:06:05 AM)
+[2015.05.26-08.06.05:864][294]LogNet: Browse: 127.0.0.1//Game/Maps/MiniTDmatch_2_NewMap
+[2015.05.26-08.06.05:865][294]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.26-08.06.05:870][294]LogNet: Game client on port 7777, rate 10000
+[2015.05.26-08.06.05:870][294]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 0, ProjectName: mayhem3d, ProjectVersion: , LocalNetworkVersion: 1670974603
+[2015.05.26-08.06.05:927][294]PIE: Info Play in editor start time for /Game/Maps/MiniTDmatch_2_NewMap 0.086
+[2015.05.26-08.06.05:988][294]LogNet: NotifyAcceptingConnection: Server MiniTDmatch_2_NewMap accept
+[2015.05.26-08.06.05:988][294]LogNet: Open MiniTDmatch_2_NewMap 05/26/15 20:06:05 127.0.0.1
+[2015.05.26-08.06.05:988][294]LogNet: Added client connection.  Remote address = 127.0.0.1:51431
+[2015.05.26-08.06.06:017][294]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap: Accepted
+[2015.05.26-08.06.06:037][294]LogNet: Remote platform little endian=1
+[2015.05.26-08.06.06:037][294]LogNet: This platform little endian=1
+[2015.05.26-08.06.06:037][294]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 0, ProjectName: mayhem3d, ProjectVersion: , LocalNetworkVersion: 1670974603
+[2015.05.26-08.06.06:092][295]LogNet: Login request: /Game/Maps/MiniTDmatch_2_NewMap userId: Invalid
+[2015.05.26-08.06.06:103][295]LogNet: Client netspeed is 10000
+[2015.05.26-08.06.06:105][295]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2015.05.26-08.06.06:158][295]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2015.05.26-08.06.06:201][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D8CA0C0
+[2015.05.26-08.06.06:218][295]Cmd: MEM
+[2015.05.26-08.06.06:348][295]LogMemory: Platform Memory Stats for Windows
+[2015.05.26-08.06.06:348][295]LogMemory: Process Physical Memory: 683.61 MB used, 708.64 MB peak
+[2015.05.26-08.06.06:348][295]LogMemory: Process Virtual Memory: 607.32 MB used, 646.52 MB peak
+[2015.05.26-08.06.06:348][295]LogMemory: Physical Memory: 5031.72 MB used, 8162.53 MB total
+[2015.05.26-08.06.06:348][295]LogMemory: Virtual Memory: 1106.12 MB used, 8388608.00 MB total
+[2015.05.26-08.06.06:348][295]LogMemory: 
+[2015.05.26-08.06.06:348][295]Allocator Stats for TBB: (not implemented)
+[2015.05.26-08.06.06:349][295]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap' while loading NULL.
+[2015.05.26-08.06.06:404][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:404][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:404][295]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:404][295]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:404][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:404][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:405][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:405][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:405][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:405][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:405][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:405][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:406][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:406][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:406][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:406][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:406][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:406][295]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.06.06:430][295]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap. OwningWorld: None
+[2015.05.26-08.06.06:439][295]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 0) at 2015.05.26-20.06.06
+[2015.05.26-08.06.06:440][295]LogWorld: Bringing up level for play took: 0.007514
+[2015.05.26-08.06.06:478][296]LogNet: Join request: /Game/Maps/MiniTDmatch_2_NewMap?SplitscreenCount=1
+[2015.05.26-08.06.06:620][296]LogNet: Join succeeded: 258
+[2015.05.26-08.06.06:730][297]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:730][297]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:730][297]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:731][297]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:754][298]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:755][298]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:755][298]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:755][298]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:768][299]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:769][299]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:769][299]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:769][299]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:782][300]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:782][300]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:782][300]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:783][300]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:800][301]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:801][301]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:801][301]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:801][301]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:818][302]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:818][302]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:818][302]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:818][302]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:840][303]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:840][303]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:840][303]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:840][303]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:862][304]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:862][304]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:862][304]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:863][304]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:885][305]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:885][305]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:885][305]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:886][305]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:907][306]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:907][306]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:908][306]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:908][306]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:930][307]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:930][307]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:930][307]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:930][307]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:952][308]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:952][308]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:952][308]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:952][308]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:974][309]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:974][309]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:974][309]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:974][309]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:996][310]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.06:996][310]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.06:996][310]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.06:997][310]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.07:018][311]LogScript:Warning: Accessed None 'Character'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:0036
+[2015.05.26-08.06.07:018][311]PIE:Error: Error Accessed None 'Character' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.07:019][311]LogScript:Warning: Accessed None 'PlayerInterface'
+	MiniTDmatch_2_NewMap_C /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.MiniTDmatch_2_NewMap_C_0
+	Function /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap_C:UpdateTarget:026B
+[2015.05.26-08.06.07:019][311]PIE:Error: Error Accessed None 'PlayerInterface' from node Set Cast Feedback in blueprint MiniTDmatch_2_NewMap
+[2015.05.26-08.06.08:836][388]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.08:856][389]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.08:858][389]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.08:879][390]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.08:882][390]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.08:902][391]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.08:905][391]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.08:925][392]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.08:928][392]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.08:948][393]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.08:951][393]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.08:971][394]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.08:974][394]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.08:994][395]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.08:997][395]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:017][396]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:020][396]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:040][397]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:043][397]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:063][398]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:066][398]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:086][399]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:230][405]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:251][406]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:254][406]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:274][407]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:277][407]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:297][408]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:300][408]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:320][409]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:323][409]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:344][410]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:347][410]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:372][411]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:375][411]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:398][412]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:401][412]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:421][413]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:424][413]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:444][414]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:447][414]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:467][415]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:470][415]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:490][416]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:493][416]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:513][417]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.09:516][417]LogCharacterMovement: ThirdPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.26-08.06.09:537][418]LogCharacterMovement: ThirdPersonCharacter_C_5 is stuck and failed to move!
+[2015.05.26-08.06.19:387][843]LogScript:Warning: Accessed None 'AbilityTarget'
+	ThirdPersonCharacter_C /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.ThirdPersonCharacter_C_5
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0DC5
+[2015.05.26-08.06.19:387][843]PIE:Error: Error Accessed None 'AbilityTarget' from node ReturnNode in blueprint ThirdPersonCharacter
+[2015.05.26-08.06.19:387][843]LogScript:Warning: Accessed None 'AbilityTarget'
+	ThirdPersonCharacter_C /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.ThirdPersonCharacter_C_5
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:RangeCheck:002A
+[2015.05.26-08.06.19:387][843]PIE:Error: Error Accessed None 'AbilityTarget' from node ReturnNode in blueprint ThirdPersonCharacter
+[2015.05.26-08.06.38:335][658]LogScript:Warning: Accessed None 'AbilityTarget'
+	ThirdPersonCharacter_C /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.ThirdPersonCharacter_C_5
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0DC5
+[2015.05.26-08.06.38:336][658]PIE:Error: Error Accessed None 'AbilityTarget' from node ReturnNode in blueprint ThirdPersonCharacter
+[2015.05.26-08.06.38:336][658]LogScript:Warning: Accessed None 'AbilityTarget'
+	ThirdPersonCharacter_C /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.ThirdPersonCharacter_C_5
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:RangeCheck:002A
+[2015.05.26-08.06.38:336][658]PIE:Error: Error Accessed None 'AbilityTarget' from node ReturnNode in blueprint ThirdPersonCharacter
+[2015.05.26-08.06.45:823][972]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.05.26-08.06.45:991][972]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.26-08.06.46:001][972]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:51431, Time: 2015.05.26-08.06.45
+[2015.05.26-08.06.46:002][972]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2015.05.26-08.06.46:002][972]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.26-08.06.46:002][972]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.26-08.06.46
+[2015.05.26-08.06.46:002][972]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2015.05.26-08.06.46:004][972]LogExit: GameNetDriver None shut down
+[2015.05.26-08.06.46:004][972]LogExit: GameNetDriver None shut down
+[2015.05.26-08.06.46:061][972]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C6A19E0
+[2015.05.26-08.06.46:061][972]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D87D4E0
+[2015.05.26-08.07.43:032][436]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (BlueStart1)
+[2015.05.26-08.08.21:447][621]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.08.23:306][711]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.08.25:158][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map_Entirely)
+[2015.05.26-08.08.25:687][823]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.26-08.08.29:158][992]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.08.32:001][123]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.08.33:298][186]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.08.35:143][268]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (BlueStart1)
+[2015.05.26-08.08.38:657][430]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (BlueStart3)
+[2015.05.26-08.08.43:357][662]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.08.44:279][705]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (BlueStart4)
+[2015.05.26-08.08.46:908][834]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.08.49:093][940]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (BlueStart3)
+[2015.05.26-08.08.51:226][ 44]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.08.52:499][104]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.08.54:021][179]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.08.55:681][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map_Entirely)
+[2015.05.26-08.08.56:397][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map_Entirely)
+[2015.05.26-08.08.56:917][315]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (BlueStart4)
+[2015.05.26-08.09.00:328][481]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.09.15:958][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map_Entirely)
+[2015.05.26-08.09.16:589][325]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (RedStart1)
+[2015.05.26-08.09.23:411][647]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.09.24:164][680]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (RedStart2)
+[2015.05.26-08.09.26:614][794]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.09.27:382][832]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (RedStart3)
+[2015.05.26-08.09.31:536][ 37]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.09.32:461][ 81]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (RedStart4)
+[2015.05.26-08.09.34:708][191]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.09.38:535][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map_Entirely)
+[2015.05.26-08.09.39:195][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map_Entirely)
+[2015.05.26-08.09.39:816][429]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (RedStart3)
+[2015.05.26-08.09.42:363][550]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.09.43:785][619]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.09.44:896][671]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (RedStart1)
+[2015.05.26-08.09.46:520][746]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.09.47:931][810]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.09.49:264][870]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (RedStart4)
+[2015.05.26-08.09.51:504][977]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.09.54:581][122]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.10.02:562][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map_Entirely)
+[2015.05.26-08.10.03:963][563]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (RedStart2)
+[2015.05.26-08.10.05:497][634]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.10.06:730][692]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.10.08:883][789]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-08.10.08:883][789]LogPlayLevel: [PIE] Compiling MiniTDmatch_2_NewMap before PIE...
+[2015.05.26-08.10.09:099][789]LogPlayLevel: PIE:  Blueprint regeneration took 215 ms (1 blueprints)
+[2015.05.26-08.10.09:119][789]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 8:10:09 AM)
+[2015.05.26-08.10.09:163][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:163][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:163][789]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:163][789]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:163][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:163][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:164][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:164][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:164][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:164][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:164][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:164][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:165][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:165][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:165][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:165][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:165][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:165][789]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:189][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068723s)
+[2015.05.26-08.10.09:190][789]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2015.05.26-08.10.09:190][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap (0.070025s)
+[2015.05.26-08.10.09:230][789]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.26-08.10.09:232][789]LogAIModule: Creating AISystem for world MiniTDmatch_2_NewMap
+[2015.05.26-08.10.09:238][789]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 0) at 2015.05.26-20.10.09
+[2015.05.26-08.10.09:239][789]LogWorld: Bringing up level for play took: 0.006616
+[2015.05.26-08.10.09:241][789]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.05.26-08.10.09:242][789]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2015.05.26-08.10.09:249][789]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap -0.302
+[2015.05.26-08.10.09:270][789]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 8:10:09 AM)
+[2015.05.26-08.10.09:378][789]LogNet: Browse: 127.0.0.1//Game/Maps/MiniTDmatch_2_NewMap
+[2015.05.26-08.10.09:379][789]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.26-08.10.09:380][789]LogNet: Game client on port 7777, rate 10000
+[2015.05.26-08.10.09:380][789]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 0, ProjectName: mayhem3d, ProjectVersion: , LocalNetworkVersion: 1670974603
+[2015.05.26-08.10.09:386][789]PIE: Info Play in editor start time for /Game/Maps/MiniTDmatch_2_NewMap -0.164
+[2015.05.26-08.10.09:447][789]LogNet: NotifyAcceptingConnection: Server MiniTDmatch_2_NewMap accept
+[2015.05.26-08.10.09:447][789]LogNet: Open MiniTDmatch_2_NewMap 05/26/15 20:10:09 127.0.0.1
+[2015.05.26-08.10.09:447][789]LogNet: Added client connection.  Remote address = 127.0.0.1:61661
+[2015.05.26-08.10.09:447][789]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap: Accepted
+[2015.05.26-08.10.09:447][789]LogNet: Remote platform little endian=1
+[2015.05.26-08.10.09:447][789]LogNet: This platform little endian=1
+[2015.05.26-08.10.09:447][789]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 0, ProjectName: mayhem3d, ProjectVersion: , LocalNetworkVersion: 1670974603
+[2015.05.26-08.10.09:500][790]LogNet: Login request: /Game/Maps/MiniTDmatch_2_NewMap userId: Invalid
+[2015.05.26-08.10.09:500][790]LogNet: Client netspeed is 10000
+[2015.05.26-08.10.09:501][790]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2015.05.26-08.10.09:535][790]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2015.05.26-08.10.09:574][790]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015D49DA0
+[2015.05.26-08.10.09:586][790]Cmd: MEM
+[2015.05.26-08.10.09:639][790]LogMemory: Platform Memory Stats for Windows
+[2015.05.26-08.10.09:639][790]LogMemory: Process Physical Memory: 689.70 MB used, 708.64 MB peak
+[2015.05.26-08.10.09:639][790]LogMemory: Process Virtual Memory: 611.86 MB used, 646.52 MB peak
+[2015.05.26-08.10.09:639][790]LogMemory: Physical Memory: 5057.83 MB used, 8162.53 MB total
+[2015.05.26-08.10.09:639][790]LogMemory: Virtual Memory: 1105.37 MB used, 8388608.00 MB total
+[2015.05.26-08.10.09:639][790]LogMemory: 
+[2015.05.26-08.10.09:639][790]Allocator Stats for TBB: (not implemented)
+[2015.05.26-08.10.09:639][790]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap' while loading NULL.
+[2015.05.26-08.10.09:684][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:684][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:685][790]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:685][790]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:685][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:685][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:685][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:685][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:686][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:686][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:686][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:686][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:687][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:687][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:687][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:687][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:688][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:688][790]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.09:717][790]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap. OwningWorld: None
+[2015.05.26-08.10.09:726][790]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 0) at 2015.05.26-20.10.09
+[2015.05.26-08.10.09:726][790]LogWorld: Bringing up level for play took: 0.007570
+[2015.05.26-08.10.09:761][791]LogNet: Join request: /Game/Maps/MiniTDmatch_2_NewMap?SplitscreenCount=1
+[2015.05.26-08.10.09:769][791]LogNet: Join succeeded: 260
+[2015.05.26-08.10.16:403][ 78]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:423][ 79]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:426][ 79]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:448][ 80]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:451][ 80]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:472][ 81]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:476][ 81]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:496][ 82]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:498][ 82]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:519][ 83]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:522][ 83]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:541][ 84]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:544][ 84]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:566][ 85]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:588][ 86]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:588][ 86]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:592][ 86]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:612][ 87]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:614][ 87]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:635][ 88]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:638][ 88]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:657][ 89]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:660][ 89]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:680][ 90]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.16:683][ 90]LogCharacterMovement: ThirdPersonCharacter_C_12 is stuck and failed to move!
+[2015.05.26-08.10.16:703][ 91]LogCharacterMovement: ThirdPersonCharacter_C_11 is stuck and failed to move!
+[2015.05.26-08.10.22:977][360]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.05.26-08.10.23:057][360]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.26-08.10.23:057][360]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:61661, Time: 2015.05.26-08.10.23
+[2015.05.26-08.10.23:057][360]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2015.05.26-08.10.23:057][360]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.26-08.10.23:057][360]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.26-08.10.23
+[2015.05.26-08.10.23:057][360]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2015.05.26-08.10.23:059][360]LogExit: GameNetDriver None shut down
+[2015.05.26-08.10.23:059][360]LogExit: GameNetDriver None shut down
+[2015.05.26-08.10.23:101][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A009760
+[2015.05.26-08.10.23:101][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019EE5800
+[2015.05.26-08.10.30:879][749]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (BlueStart1)
+[2015.05.26-08.10.33:947][905]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.10.37:598][ 78]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.10.39:764][177]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-08.10.39:764][177]LogPlayLevel: [PIE] Compiling MiniTDmatch_2_NewMap before PIE...
+[2015.05.26-08.10.39:995][177]LogPlayLevel: PIE:  Blueprint regeneration took 233 ms (1 blueprints)
+[2015.05.26-08.10.40:017][177]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 8:10:40 AM)
+[2015.05.26-08.10.40:060][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:060][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:061][177]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:061][177]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:061][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:061][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:061][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:061][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:062][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:062][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:062][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:062][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:062][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:062][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:063][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:063][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:063][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:063][177]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:087][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069977s)
+[2015.05.26-08.10.40:088][177]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2015.05.26-08.10.40:088][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap (0.071066s)
+[2015.05.26-08.10.40:117][177]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.26-08.10.40:118][177]LogAIModule: Creating AISystem for world MiniTDmatch_2_NewMap
+[2015.05.26-08.10.40:126][177]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 0) at 2015.05.26-20.10.40
+[2015.05.26-08.10.40:126][177]LogWorld: Bringing up level for play took: 0.007461
+[2015.05.26-08.10.40:128][177]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.05.26-08.10.40:129][177]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2015.05.26-08.10.40:135][177]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap 0.61
+[2015.05.26-08.10.40:156][177]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 8:10:40 AM)
+[2015.05.26-08.10.40:262][177]LogNet: Browse: 127.0.0.1//Game/Maps/MiniTDmatch_2_NewMap
+[2015.05.26-08.10.40:263][177]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.26-08.10.40:263][177]LogNet: Game client on port 7777, rate 10000
+[2015.05.26-08.10.40:263][177]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 0, ProjectName: mayhem3d, ProjectVersion: , LocalNetworkVersion: 1670974603
+[2015.05.26-08.10.40:270][177]PIE: Info Play in editor start time for /Game/Maps/MiniTDmatch_2_NewMap 0.745
+[2015.05.26-08.10.40:329][177]LogNet: NotifyAcceptingConnection: Server MiniTDmatch_2_NewMap accept
+[2015.05.26-08.10.40:329][177]LogNet: Open MiniTDmatch_2_NewMap 05/26/15 20:10:40 127.0.0.1
+[2015.05.26-08.10.40:329][177]LogNet: Added client connection.  Remote address = 127.0.0.1:53879
+[2015.05.26-08.10.40:330][177]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap: Accepted
+[2015.05.26-08.10.40:330][177]LogNet: Remote platform little endian=1
+[2015.05.26-08.10.40:330][177]LogNet: This platform little endian=1
+[2015.05.26-08.10.40:330][177]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 0, ProjectName: mayhem3d, ProjectVersion: , LocalNetworkVersion: 1670974603
+[2015.05.26-08.10.40:386][178]LogNet: Login request: /Game/Maps/MiniTDmatch_2_NewMap userId: Invalid
+[2015.05.26-08.10.40:386][178]LogNet: Client netspeed is 10000
+[2015.05.26-08.10.40:388][178]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2015.05.26-08.10.40:420][178]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2015.05.26-08.10.40:457][178]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001130DEE0
+[2015.05.26-08.10.40:470][178]Cmd: MEM
+[2015.05.26-08.10.40:520][178]LogMemory: Platform Memory Stats for Windows
+[2015.05.26-08.10.40:520][178]LogMemory: Process Physical Memory: 690.46 MB used, 708.64 MB peak
+[2015.05.26-08.10.40:520][178]LogMemory: Process Virtual Memory: 612.11 MB used, 646.52 MB peak
+[2015.05.26-08.10.40:520][178]LogMemory: Physical Memory: 5054.75 MB used, 8162.53 MB total
+[2015.05.26-08.10.40:520][178]LogMemory: Virtual Memory: 1105.37 MB used, 8388608.00 MB total
+[2015.05.26-08.10.40:520][178]LogMemory: 
+[2015.05.26-08.10.40:520][178]Allocator Stats for TBB: (not implemented)
+[2015.05.26-08.10.40:520][178]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap' while loading NULL.
+[2015.05.26-08.10.40:563][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:563][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:563][178]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:563][178]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:563][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:563][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:563][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:563][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:564][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:564][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:564][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:564][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:564][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:564][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:565][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:565][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:565][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:565][178]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.10.40:588][178]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap. OwningWorld: None
+[2015.05.26-08.10.40:597][178]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 0) at 2015.05.26-20.10.40
+[2015.05.26-08.10.40:597][178]LogWorld: Bringing up level for play took: 0.007443
+[2015.05.26-08.10.40:633][179]LogNet: Join request: /Game/Maps/MiniTDmatch_2_NewMap?SplitscreenCount=1
+[2015.05.26-08.10.40:639][179]LogNet: Join succeeded: 262
+[2015.05.26-08.10.47:718][484]LogCharacterMovement: ThirdPersonCharacter_C_18 is stuck and failed to move!
+[2015.05.26-08.10.47:737][485]LogCharacterMovement: ThirdPersonCharacter_C_17 is stuck and failed to move!
+[2015.05.26-08.10.47:740][485]LogCharacterMovement: ThirdPersonCharacter_C_18 is stuck and failed to move!
+[2015.05.26-08.10.47:760][486]LogCharacterMovement: ThirdPersonCharacter_C_17 is stuck and failed to move!
+[2015.05.26-08.10.47:763][486]LogCharacterMovement: ThirdPersonCharacter_C_18 is stuck and failed to move!
+[2015.05.26-08.10.47:784][487]LogCharacterMovement: ThirdPersonCharacter_C_17 is stuck and failed to move!
+[2015.05.26-08.10.47:786][487]LogCharacterMovement: ThirdPersonCharacter_C_18 is stuck and failed to move!
+[2015.05.26-08.10.47:807][488]LogCharacterMovement: ThirdPersonCharacter_C_17 is stuck and failed to move!
+[2015.05.26-08.10.47:810][488]LogCharacterMovement: ThirdPersonCharacter_C_18 is stuck and failed to move!
+[2015.05.26-08.10.47:830][489]LogCharacterMovement: ThirdPersonCharacter_C_17 is stuck and failed to move!
+[2015.05.26-08.10.47:833][489]LogCharacterMovement: ThirdPersonCharacter_C_18 is stuck and failed to move!
+[2015.05.26-08.10.47:853][490]LogCharacterMovement: ThirdPersonCharacter_C_17 is stuck and failed to move!
+[2015.05.26-08.10.47:858][490]LogCharacterMovement: ThirdPersonCharacter_C_18 is stuck and failed to move!
+[2015.05.26-08.10.47:877][491]LogCharacterMovement: ThirdPersonCharacter_C_17 is stuck and failed to move!
+[2015.05.26-08.10.47:880][491]LogCharacterMovement: ThirdPersonCharacter_C_18 is stuck and failed to move!
+[2015.05.26-08.10.47:899][492]LogCharacterMovement: ThirdPersonCharacter_C_17 is stuck and failed to move!
+[2015.05.26-08.10.49:628][564]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.05.26-08.10.49:702][564]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.26-08.10.49:702][564]LogNet: UNetConnection::Close: Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:53879, Time: 2015.05.26-08.10.49
+[2015.05.26-08.10.49:702][564]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2015.05.26-08.10.49:702][564]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.26-08.10.49:702][564]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.26-08.10.49
+[2015.05.26-08.10.49:702][564]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2015.05.26-08.10.49:704][564]LogExit: GameNetDriver None shut down
+[2015.05.26-08.10.49:704][564]LogExit: GameNetDriver None shut down
+[2015.05.26-08.10.49:748][565]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001130C860
+[2015.05.26-08.10.49:748][565]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000115767A0
+[2015.05.26-08.10.51:824][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map_Entirely)
+[2015.05.26-08.11.11:259][515]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.11.13:816][635]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.11.16:096][741]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.26-08.11.18:894][878]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (BlueStart2)
+[2015.05.26-08.11.22:296][ 39]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.26-08.11.23:792][ 98]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-08.11.23:792][ 98]LogPlayLevel: [PIE] Compiling MiniTDmatch_2_NewMap before PIE...
+[2015.05.26-08.11.24:012][ 98]LogPlayLevel: PIE:  Blueprint regeneration took 220 ms (1 blueprints)
+[2015.05.26-08.11.24:036][ 98]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 8:11:24 AM)
+[2015.05.26-08.11.24:090][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:090][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:091][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:091][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:091][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:091][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:091][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:091][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:092][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:092][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:092][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:092][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:092][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:092][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:093][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:093][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:093][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:093][ 98]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:124][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085935s)
+[2015.05.26-08.11.24:125][ 98]LogPlayLevel: PIE: World Init took: (0.001362s)
+[2015.05.26-08.11.24:125][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap (0.087570s)
+[2015.05.26-08.11.24:157][ 98]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.26-08.11.24:159][ 98]LogAIModule: Creating AISystem for world MiniTDmatch_2_NewMap
+[2015.05.26-08.11.24:169][ 98]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 0) at 2015.05.26-20.11.24
+[2015.05.26-08.11.24:171][ 98]LogWorld: Bringing up level for play took: 0.010909
+[2015.05.26-08.11.24:173][ 98]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.05.26-08.11.24:174][ 98]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2015.05.26-08.11.24:185][ 98]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap 0.693
+[2015.05.26-08.11.24:213][ 98]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 8:11:24 AM)
+[2015.05.26-08.11.24:344][ 98]LogNet: Browse: 127.0.0.1//Game/Maps/MiniTDmatch_2_NewMap
+[2015.05.26-08.11.24:345][ 98]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.05.26-08.11.24:346][ 98]LogNet: Game client on port 7777, rate 10000
+[2015.05.26-08.11.24:346][ 98]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 0, ProjectName: mayhem3d, ProjectVersion: , LocalNetworkVersion: 1670974603
+[2015.05.26-08.11.24:354][ 98]PIE: Info Play in editor start time for /Game/Maps/MiniTDmatch_2_NewMap 0.862
+[2015.05.26-08.11.24:423][ 98]LogNet: NotifyAcceptingConnection: Server MiniTDmatch_2_NewMap accept
+[2015.05.26-08.11.24:423][ 98]LogNet: Open MiniTDmatch_2_NewMap 05/26/15 20:11:24 127.0.0.1
+[2015.05.26-08.11.24:423][ 98]LogNet: Added client connection.  Remote address = 127.0.0.1:53882
+[2015.05.26-08.11.24:423][ 98]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap: Accepted
+[2015.05.26-08.11.24:423][ 98]LogNet: Remote platform little endian=1
+[2015.05.26-08.11.24:423][ 98]LogNet: This platform little endian=1
+[2015.05.26-08.11.24:423][ 98]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 0, ProjectName: mayhem3d, ProjectVersion: , LocalNetworkVersion: 1670974603
+[2015.05.26-08.11.24:532][ 99]LogNet: Login request: /Game/Maps/MiniTDmatch_2_NewMap userId: Invalid
+[2015.05.26-08.11.24:532][ 99]LogNet: Client netspeed is 10000
+[2015.05.26-08.11.24:535][ 99]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2015.05.26-08.11.24:545][ 99]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2015.05.26-08.11.24:585][ 99]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A00BD80
+[2015.05.26-08.11.24:598][ 99]Cmd: MEM
+[2015.05.26-08.11.24:647][ 99]LogMemory: Platform Memory Stats for Windows
+[2015.05.26-08.11.24:647][ 99]LogMemory: Process Physical Memory: 691.99 MB used, 708.64 MB peak
+[2015.05.26-08.11.24:647][ 99]LogMemory: Process Virtual Memory: 613.43 MB used, 646.52 MB peak
+[2015.05.26-08.11.24:647][ 99]LogMemory: Physical Memory: 5052.43 MB used, 8162.53 MB total
+[2015.05.26-08.11.24:647][ 99]LogMemory: Virtual Memory: 1106.68 MB used, 8388608.00 MB total
+[2015.05.26-08.11.24:647][ 99]LogMemory: 
+[2015.05.26-08.11.24:647][ 99]Allocator Stats for TBB: (not implemented)
+[2015.05.26-08.11.24:647][ 99]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap' while loading NULL.
+[2015.05.26-08.11.24:694][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:695][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:695][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:695][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:696][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:696][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:696][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:696][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:697][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:697][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:697][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:697][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:698][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:698][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:698][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:698][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:698][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:698][ 99]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.11.24:730][ 99]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap. OwningWorld: None
+[2015.05.26-08.11.24:743][ 99]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 0) at 2015.05.26-20.11.24
+[2015.05.26-08.11.24:744][ 99]LogWorld: Bringing up level for play took: 0.010860
+[2015.05.26-08.11.24:785][100]LogNet: Join request: /Game/Maps/MiniTDmatch_2_NewMap?SplitscreenCount=1
+[2015.05.26-08.11.24:792][100]LogNet: Join succeeded: 264
+[2015.05.26-08.11.39:798][740]LogScript:Warning: Accessed None 'AbilityTarget'
+	ThirdPersonCharacter_C /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.ThirdPersonCharacter_C_23
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0DC5
+[2015.05.26-08.11.39:799][740]PIE:Error: Error Accessed None 'AbilityTarget' from node ReturnNode in blueprint ThirdPersonCharacter
+[2015.05.26-08.11.42:171][842]LogScript:Warning: Accessed None 'AbilityTarget'
+	ThirdPersonCharacter_C /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.ThirdPersonCharacter_C_23
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0DC5
+[2015.05.26-08.11.42:172][842]PIE:Error: Error Accessed None 'AbilityTarget' from node ReturnNode in blueprint ThirdPersonCharacter
+[2015.05.26-08.11.46:376][ 24]LogScript:Warning: Accessed None 'AbilityTarget'
+	ThirdPersonCharacter_C /Game/Maps/UEDPIE_1_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap:PersistentLevel.ThirdPersonCharacter_C_23
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0DC5
+[2015.05.26-08.11.46:376][ 24]PIE:Error: Error Accessed None 'AbilityTarget' from node ReturnNode in blueprint ThirdPersonCharacter
+[2015.05.26-08.12.04:394][789]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.05.26-08.12.04:484][789]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.26-08.12.04:484][789]LogNet: UNetConnection::Close: Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:53882, Time: 2015.05.26-08.12.04
+[2015.05.26-08.12.04:485][789]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_7
+[2015.05.26-08.12.04:485][789]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.05.26-08.12.04:485][789]LogNet: UNetConnection::Close: Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.05.26-08.12.04
+[2015.05.26-08.12.04:485][789]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_6
+[2015.05.26-08.12.04:489][789]LogExit: GameNetDriver None shut down
+[2015.05.26-08.12.04:489][789]LogExit: GameNetDriver None shut down
+[2015.05.26-08.12.04:536][789]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C8072E0
+[2015.05.26-08.12.04:536][789]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011574180
+[2015.05.26-08.12.40:348][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MiniTDmatch_2_NewMap" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Maps/MiniTDmatch_2_NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.26-08.12.41:122][ 10]LogSavePackage: Save=672.343933ms
+[2015.05.26-08.12.41:122][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/MiniTDmatch_2_NewMap36C487464E7BEE9407CB059D23C05B91.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Maps/MiniTDmatch_2_NewMap.umap'
+[2015.05.26-08.12.41:171][ 10]LogFileHelpers: Saving map 'MiniTDmatch_2_NewMap' took 1.019
+[2015.05.26-08.12.41:205][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ConcreteBare0348_2_D" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_D.uasset" SILENT=true
+[2015.05.26-08.12.41:678][ 10]LogSavePackage: Save=467.051575ms
+[2015.05.26-08.12.41:678][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/ConcreteBare0348_2_DDBFFB9A74DBFCE53BAB5A6957F7237CC.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_D.uasset'
+[2015.05.26-08.12.41:736][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ConcreteBare0348_2_N" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_N.uasset" SILENT=true
+[2015.05.26-08.12.42:147][ 10]LogSavePackage: Save=404.670959ms
+[2015.05.26-08.12.42:147][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/ConcreteBare0348_2_N65799AD943BC95939A50A2A30F963167.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_N.uasset'
+[2015.05.26-08.12.42:184][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ConcreteBare0348_2_OCC" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_OCC.uasset" SILENT=true
+[2015.05.26-08.12.43:558][ 10]LogSavePackage: Save=1371.011353ms
+[2015.05.26-08.12.43:558][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/ConcreteBare0348_2_OCCA684D1AE48450B6D0AF07197BBFB6136.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0348_2_OCC.uasset'
+[2015.05.26-08.12.43:584][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ConcreteBare0371_1_D" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_D.uasset" SILENT=true
+[2015.05.26-08.12.44:522][ 10]LogSavePackage: Save=932.987061ms
+[2015.05.26-08.12.44:522][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/ConcreteBare0371_1_D5441A2304292A6D69122F4A6BE5ED22C.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_D.uasset'
+[2015.05.26-08.12.44:589][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ConcreteBare0371_1_N" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_N.uasset" SILENT=true
+[2015.05.26-08.12.45:367][ 10]LogSavePackage: Save=771.795410ms
+[2015.05.26-08.12.45:367][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/ConcreteBare0371_1_NC8A1F30F41B256AAEBC95CB0C44CBC8C.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_N.uasset'
+[2015.05.26-08.12.45:395][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ConcreteBare0371_1_OCC" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_OCC.uasset" SILENT=true
+[2015.05.26-08.12.47:271][ 10]LogSavePackage: Save=1873.814087ms
+[2015.05.26-08.12.47:271][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/ConcreteBare0371_1_OCC191993754A538B61D9FC6B91722AF94C.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteBare0371_1_OCC.uasset'
+[2015.05.26-08.12.47:410][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ConcreteDirty0323_1_D" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_D.uasset" SILENT=true
+[2015.05.26-08.12.48:407][ 10]LogSavePackage: Save=991.951965ms
+[2015.05.26-08.12.48:407][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/ConcreteDirty0323_1_D9066980A421730715279D2A135868050.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_D.uasset'
+[2015.05.26-08.12.48:435][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ConcreteDirty0323_1_N" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_N.uasset" SILENT=true
+[2015.05.26-08.12.49:532][ 10]LogSavePackage: Save=1091.368896ms
+[2015.05.26-08.12.49:532][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/ConcreteDirty0323_1_N5148A87C4BB74FF4F474258446B07F37.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_N.uasset'
+[2015.05.26-08.12.49:558][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ConcreteDirty0323_1_OCC" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_OCC.uasset" SILENT=true
+[2015.05.26-08.12.51:311][ 10]LogSavePackage: Save=1747.544800ms
+[2015.05.26-08.12.51:311][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/ConcreteDirty0323_1_OCC6DAC5ECF4156F74E0BB4639B5F59D2B0.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/ConcreteDirty0323_1_OCC.uasset'
+[2015.05.26-08.12.51:349][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FloorHerringbone0066_1_D" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_D.uasset" SILENT=true
+[2015.05.26-08.12.51:700][ 10]LogSavePackage: Save=340.949707ms
+[2015.05.26-08.12.51:700][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/FloorHerringbone0066_1_DFE01DC624CD9BC6AE7BBFB9D3290AB47.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_D.uasset'
+[2015.05.26-08.12.51:727][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FloorHerringbone0066_1_N" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_N.uasset" SILENT=true
+[2015.05.26-08.12.52:217][ 10]LogSavePackage: Save=483.293762ms
+[2015.05.26-08.12.52:217][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/FloorHerringbone0066_1_N806FA0194BAF8C9015592E89A4BF68D1.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_N.uasset'
+[2015.05.26-08.12.52:246][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FloorHerringbone0066_1_OCC" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_OCC.uasset" SILENT=true
+[2015.05.26-08.12.53:397][ 10]LogSavePackage: Save=1144.961304ms
+[2015.05.26-08.12.53:397][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/FloorHerringbone0066_1_OCC6B02AAED49C19173C4AB9BA370BA2E23.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorHerringbone0066_1_OCC.uasset'
+[2015.05.26-08.12.53:429][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FloorsHexagonal0028_1_D" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_D.uasset" SILENT=true
+[2015.05.26-08.12.54:091][ 10]LogSavePackage: Save=671.471924ms
+[2015.05.26-08.12.54:091][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/FloorsHexagonal0028_1_DAC689313480840B87223BF8C668CDDD4.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_D.uasset'
+[2015.05.26-08.12.54:116][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FloorsHexagonal0028_1_N" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_N.uasset" SILENT=true
+[2015.05.26-08.12.54:660][ 10]LogSavePackage: Save=536.293091ms
+[2015.05.26-08.12.54:660][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/FloorsHexagonal0028_1_NCC06AA2A4F7B2101661DC590B44D1E07.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_N.uasset'
+[2015.05.26-08.12.54:688][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FloorsHexagonal0028_1_OCC" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_OCC.uasset" SILENT=true
+[2015.05.26-08.12.56:277][ 10]LogSavePackage: Save=1582.119263ms
+[2015.05.26-08.12.56:277][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/FloorsHexagonal0028_1_OCC50C28F1847A2B0CF19FA1E89B4AB9E4A.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsHexagonal0028_1_OCC.uasset'
+[2015.05.26-08.12.56:309][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FloorsMedieval0034_1_N" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_N.uasset" SILENT=true
+[2015.05.26-08.12.56:711][ 10]LogSavePackage: Save=393.388977ms
+[2015.05.26-08.12.56:711][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/FloorsMedieval0034_1_N206034954184008E541673B5AB22A0DD.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_N.uasset'
+[2015.05.26-08.12.56:749][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FloorsMedieval0034_1_OCC" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_OCC.uasset" SILENT=true
+[2015.05.26-08.12.58:565][ 10]LogSavePackage: Save=1810.674927ms
+[2015.05.26-08.12.58:565][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/FloorsMedieval0034_1_OCCE18F9D074E7E1CB12AA261890BCF1E23.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_OCC.uasset'
+[2015.05.26-08.12.58:614][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/FloorsMedieval0034_1_S" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_S.uasset" SILENT=true
+[2015.05.26-08.12.59:468][ 10]LogSavePackage: Save=845.333740ms
+[2015.05.26-08.12.59:468][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/FloorsMedieval0034_1_SAD7338164569A2AE1CC4A6B9E6BC380A.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/FloorsMedieval0034_1_S.uasset'
+[2015.05.26-08.12.59:518][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/OBJ/platform_bottom_r" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Materials/OBJ/platform_bottom_r.uasset" SILENT=true
+[2015.05.26-08.12.59:722][ 10]LogSavePackage: Save=196.513000ms
+[2015.05.26-08.12.59:722][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/platform_bottom_r0C75665F4D651ACBBD74BBAA8731C6D7.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Materials/OBJ/platform_bottom_r.uasset'
+[2015.05.26-08.12.59:759][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/Cartoon_Sun" FILE="../../../../../ToyBox_VerticalSlice_2/Content/StarterContent/Textures/Cartoon_Sun.uasset" SILENT=true
+[2015.05.26-08.13.00:500][ 10]LogSavePackage: Save=731.213989ms
+[2015.05.26-08.13.00:500][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/Cartoon_Sun2B5D144745BA83C958392DA1BCCC9579.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/StarterContent/Textures/Cartoon_Sun.uasset'
+[2015.05.26-08.13.00:548][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/T_Sun_Sheet_Cartoon" FILE="../../../../../ToyBox_VerticalSlice_2/Content/StarterContent/Textures/T_Sun_Sheet_Cartoon.uasset" SILENT=true
+[2015.05.26-08.13.02:909][ 10]LogSavePackage: Save=2354.817139ms
+[2015.05.26-08.13.02:909][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/T_Sun_Sheet_CartoonE411EABD471C658B1318ADAB8E7C685C.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/StarterContent/Textures/T_Sun_Sheet_Cartoon.uasset'
+[2015.05.26-08.13.04:162][ 10]LogSavePackage: Save=1208.196411ms
+[2015.05.26-08.13.04:162][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/handpaintedtextures_stonefloor8_NE0E612BC4BAB33FB3C1F1BB37263A695.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/handpaintedtextures_stonefloor8_N.uasset'
+[2015.05.26-08.13.06:027][ 10]LogSavePackage: Save=1825.089966ms
+[2015.05.26-08.13.06:027][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/handpaintedtextures_stonefloor8_OCC5B0E9F7D4A22A905FFBC629C3EA012CA.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/handpaintedtextures_stonefloor8_OCC.uasset'
+[2015.05.26-08.13.06:555][ 10]LogSavePackage: Save=433.909485ms
+[2015.05.26-08.13.06:555][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_BloodiedFloorTileHex_Ambient_Occlusion31A05DC04C132CA19244C9AFAF20797E.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Ambient_Occlusion.uasset'
+[2015.05.26-08.13.08:129][ 10]LogSavePackage: Save=1535.872070ms
+[2015.05.26-08.13.08:130][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_BloodiedFloorTileHex_diffuse1CE8FFD34E3B974A214DD897C892ED79.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_diffuse.uasset'
+[2015.05.26-08.13.08:178][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/M_BloodiedFloorTileHex_Height" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Height.uasset" SILENT=true
+[2015.05.26-08.13.09:486][ 10]LogSavePackage: Save=1312.272095ms
+[2015.05.26-08.13.09:487][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_BloodiedFloorTileHex_Height10DC0B72402D7B4711A16DA33135C319.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Height.uasset'
+[2015.05.26-08.13.09:542][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/M_BloodiedFloorTileHex_normal" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_normal.uasset" SILENT=true
+[2015.05.26-08.13.13:866][ 10]LogSavePackage: Save=4314.720215ms
+[2015.05.26-08.13.13:866][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_BloodiedFloorTileHex_normal11D23AE146D3D481D3D9DF8A355CD3B5.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_normal.uasset'
+[2015.05.26-08.13.16:850][ 10]LogSavePackage: Save=2953.404053ms
+[2015.05.26-08.13.16:850][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_BloodiedFloorTileHex_Specular49E28F9A468F7731A03BA5807D1DE1C9.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTileHex_Specular.uasset'
+[2015.05.26-08.13.18:154][ 10]LogSavePackage: Save=1255.905151ms
+[2015.05.26-08.13.18:154][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_BloodiedFloorTile_Ambient_Occlusion77A04EB64860F4815AD81B8B8F2708BB.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Ambient_Occlusion.uasset'
+[2015.05.26-08.13.18:183][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/M_BloodiedFloorTile_diffuse" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_diffuse.uasset" SILENT=true
+[2015.05.26-08.13.24:466][ 10]LogSavePackage: Save=6317.439941ms
+[2015.05.26-08.13.24:466][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_BloodiedFloorTile_diffuse802C06C745063DAD42AFD7B89FCED225.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_diffuse.uasset'
+[2015.05.26-08.13.24:502][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/M_BloodiedFloorTile_Height" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Height.uasset" SILENT=true
+[2015.05.26-08.13.26:092][ 10]LogSavePackage: Save=1578.880737ms
+[2015.05.26-08.13.26:092][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_BloodiedFloorTile_HeightB3FB05644C6BEF3B214AF4848DBB2E93.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Height.uasset'
+[2015.05.26-08.13.26:120][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/M_BloodiedFloorTile_normal" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_normal.uasset" SILENT=true
+[2015.05.26-08.13.32:376][ 10]LogSavePackage: Save=6244.427734ms
+[2015.05.26-08.13.32:376][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_BloodiedFloorTile_normal906446C042E5F9E6CADE17A3A84548A5.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_normal.uasset'
+[2015.05.26-08.13.32:408][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/M_BloodiedFloorTile_Specular" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Specular.uasset" SILENT=true
+[2015.05.26-08.13.34:821][ 10]LogSavePackage: Save=2404.503418ms
+[2015.05.26-08.13.34:821][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_BloodiedFloorTile_Specular4FABFD314E1E2E945F963BA6A8C7CEEE.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_BloodiedFloorTile_Specular.uasset'
+[2015.05.26-08.13.34:858][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/M_HexTiles_Ambient_Occlusion" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Ambient_Occlusion.uasset" SILENT=true
+[2015.05.26-08.13.35:793][ 10]LogSavePackage: Save=917.099365ms
+[2015.05.26-08.13.35:793][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_HexTiles_Ambient_Occlusion939272C64CCCCF29331FE994B53B008A.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Ambient_Occlusion.uasset'
+[2015.05.26-08.13.35:856][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/M_HexTiles_diffuse" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_diffuse.uasset" SILENT=true
+[2015.05.26-08.13.37:574][ 10]LogSavePackage: Save=1707.868286ms
+[2015.05.26-08.13.37:574][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_HexTiles_diffuse8D6EBCDC46C045575C9BA4851E6A7750.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_diffuse.uasset'
+[2015.05.26-08.13.37:602][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/M_HexTiles_Height" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Height.uasset" SILENT=true
+[2015.05.26-08.13.39:368][ 10]LogSavePackage: Save=1754.249634ms
+[2015.05.26-08.13.39:368][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_HexTiles_Height03F48EA64908C70DD43EA2BB9D7D7C1A.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Height.uasset'
+[2015.05.26-08.13.39:407][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/M_HexTiles_normal" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_normal.uasset" SILENT=true
+[2015.05.26-08.13.41:550][ 10]LogSavePackage: Save=2131.421631ms
+[2015.05.26-08.13.41:550][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_HexTiles_normal7610D72848F95F732036DC83162E5364.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_normal.uasset'
+[2015.05.26-08.13.41:638][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/M_HexTiles_Specular" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Specular.uasset" SILENT=true
+[2015.05.26-08.13.45:268][ 10]LogSavePackage: Save=3618.738525ms
+[2015.05.26-08.13.45:268][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/M_HexTiles_Specular4CEBA1334845B4FB4D1F10A15271F209.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/M_HexTiles_Specular.uasset'
+[2015.05.26-08.13.45:302][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Stylized/T_Tech_Hex_Tile_M" FILE="../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/T_Tech_Hex_Tile_M.uasset" SILENT=true
+[2015.05.26-08.13.49:779][ 10]LogSavePackage: Save=4469.780273ms
+[2015.05.26-08.13.49:779][ 10]LogSavePackage: Moving '../../../../../ToyBox_VerticalSlice_2/Saved/T_Tech_Hex_Tile_M2F6445CA44850B3230FC5F85B35FFD5F.tmp' to '../../../../../ToyBox_VerticalSlice_2/Content/Textures/Stylized/T_Tech_Hex_Tile_M.uasset'
+[2015.05.26-08.13.49:828][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/OBJ/platform_bottom_r" FILE="../../../../../ToyBox_VerticalSlice_2/Content/StarterContent/Materials/OBJ/platform_bottom_r.uasset" SILENT=true
+[2015.05.26-08.13
