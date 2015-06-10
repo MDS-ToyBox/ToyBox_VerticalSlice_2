@@ -1,0 +1,570 @@
+﻿Log file open, 05/26/15 20:58:16
+LogInit:Display: Running engine for game: Mayhem3d
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.26-08.58.16:175][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.26-08.58.16:258][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.26-08.58.16:283][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.26-08.58.16:296][  0]LogInit: Object subsystem initialized
+[2015.05.26-08.58.16:298][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.26-08.58.16:299][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.26-08.58.16:306][  0]LogInit: Computer: AORUS_X3
+[2015.05.26-08.58.16:306][  0]LogInit: User: Mike
+[2015.05.26-08.58.16:306][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.26-08.58.16:306][  0]LogInit: High frequency timer resolution =2.338331 MHz
+[2015.05.26-08.58.16:306][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.05.26-08.58.16:306][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.26-08.58.16:306][  0]LogMemory: Process Physical Memory: 46.03 MB used, 46.03 MB peak
+[2015.05.26-08.58.16:306][  0]LogMemory: Process Virtual Memory: 26.58 MB used, 26.58 MB peak
+[2015.05.26-08.58.16:306][  0]LogMemory: Physical Memory: 4776.82 MB used, 16301.10 MB total
+[2015.05.26-08.58.16:306][  0]LogMemory: Virtual Memory: 301.94 MB used, 134217728.00 MB total
+[2015.05.26-08.58.16:743][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 870M (Feature Level 11_0)
+[2015.05.26-08.58.16:743][  0]LogD3D11RHI: Adapter has 6033MB of dedicated video memory, 0MB of dedicated system memory, and 8150MB of shared system memory, 1 output[s]
+[2015.05.26-08.58.16:750][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) Iris(TM) Pro Graphics 5200 (Feature Level 11_0)
+[2015.05.26-08.58.16:750][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.05.26-08.58.16:753][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.26-08.58.16:753][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.26-08.58.16:753][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.26-08.58.16:757][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.26-08.58.16:766][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.26-08.58.16:831][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.26-08.58.16:902][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.26-08.58.16:902][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.26-08.58.17:000][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.26-08.58.19:779][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-08.58.20:407][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-08.58.20:480][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.26-08.58.20:533][  0]LogDerivedDataCache: Loaded boot cache 0.05s 40MB C:/Users/Mike/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.26-08.58.20:533][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mike/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.26-08.58.20:533][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mike/Desktop/Vertical Slice/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.26-08.58.20:533][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.26-08.58.20:678][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.26-08.58.20:690][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mike/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.26-08.58.21:018][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.26-08.58.21:018][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.26-08.58.21:570][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.26-08.58.21:660][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.26-08.58.22:616][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.26-08.58.22:890][  0]SourceControl: Info Source control is disabled
+[2015.05.26-08.58.22:890][  0]SourceControl: Info Source control is disabled
+[2015.05.26-08.58.22:890][  0]SourceControl: Info Source control is disabled
+[2015.05.26-08.58.22:890][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.26-08.58.22:890][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.26-08.58.22:900][  0]SourceControl: Info Source control is disabled
+[2015.05.26-08.58.23:119][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.26-08.58.23:119][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.26-08.58.23:247][  0]LogEngine: Initializing Engine...
+[2015.05.26-08.58.26:462][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.26-08.58.26:481][  0]LogInit: FAudioDevice initialized.
+[2015.05.26-08.58.26:525][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.26-08.58.26:547][  0]LogDerivedDataCache: Saved boot cache 0.02s 40MB C:/Users/Mike/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.26-08.58.26:552][  0]LogInit: Texture streaming: Enabled
+[2015.05.26-08.58.26:657][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.26-08.58.26:657][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.26-08.58.26:657][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.26-08.58.26:657][  0]LogAnalytics: SetUserId 7973641242ab8daaa1a16697fdb176f2|ccb0c50c0d0e47deab22ca04ebced0f2|16dc805b-9417-485d-b6cb-59eb3a26e502
+[2015.05.26-08.58.26:657][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.26-08.58.26:684][  0]LogInit: Transaction tracking system initialized
+[2015.05.26-08.58.26:882][  0]BlueprintLog: New page: Editor Load
+[2015.05.26-08.58.26:921][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.05.26-08.58.26:921][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.26-08.58.27:600][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-08.58.28:047][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.26-08.58.28:335][  0]LogLinker:Warning: Can't find file '/Game/FlyingBP/FlyingOverview'
+[2015.05.26-08.58.28:335][  0]LogLinker:Warning: Can't find file '/Game/FlyingBP/FlyingOverview'
+[2015.05.26-08.58.28:335][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FlyingBP/FlyingOverview.FlyingOverview_C'
+[2015.05.26-08.58.28:373][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.26-08.58.28:373][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.26-08.58.28:378][  0]LogConsoleResponse:Display: 
+[2015.05.26-08.58.28:522][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.26-08.58.28:689][  0]SourceControl: Info Source control is disabled
+[2015.05.26-08.58.28:689][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mike/Desktop/Vertical Slice/Content/Maps/MiniTDmatch_2_NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.26-08.58.28:689][  0]LightingResults: New page: Lighting Build
+[2015.05.26-08.58.28:704][  0]MapCheck: New page: Map Check
+[2015.05.26-08.58.28:704][  0]LightingResults: New page: Lighting Build
+[2015.05.26-08.58.28:715][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080952EE520
+[2015.05.26-08.58.29:303][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/AbilityController.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:183][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/DamageTypes/ArcaneDamage.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:185][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:201][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_100.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:430][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/Character/Materials/Red/Brawler_Red.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:439][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Materials/TargetingMaterial'
+[2015.05.26-08.58.30:439][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.AOEHealBall_C Referenced by StaticMeshComponent_382
+[2015.05.26-08.58.30:439][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Materials/TargetingMaterial' while loading ../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.uasset.
+[2015.05.26-08.58.30:439][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.AOEHealBall_C Referenced by StaticMeshComponent_382
+[2015.05.26-08.58.30:439][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall : Can't find file for asset. /Game/ThirdPersonBP/Materials/TargetingMaterial
+[2015.05.26-08.58.30:454][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/Projectiles/HealerOrb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:473][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/Projectiles/MageOrb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:480][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Materials/MageOrbMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:497][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Materials/MegaOrbMatterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:507][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/Projectiles/SlowBall.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:513][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Materials/SlowBallMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:521][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:527][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/Blueprints/GameHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.30:587][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/Scores.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:400][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/Character/Materials/Blue/Brawler_Blue.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:421][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Materials/TargetingMaterial'
+[2015.05.26-08.58.31:421][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Materials/TargetingMaterial' while loading ../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.uasset.
+[2015.05.26-08.58.31:421][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall : Can't find file for asset. /Game/ThirdPersonBP/Materials/TargetingMaterial
+[2015.05.26-08.58.31:421][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Materials/PlayerMat_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:422][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Materials/PlayerMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:424][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Materials/TargetingMaterial'
+[2015.05.26-08.58.31:425][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Materials/TargetingMaterial' while loading ../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.uasset.
+[2015.05.26-08.58.31:425][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall : Can't find file for asset. /Game/ThirdPersonBP/Materials/TargetingMaterial
+[2015.05.26-08.58.31:425][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_10.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:426][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_15.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:427][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_20.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:428][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_25.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:429][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_30.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:430][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_35.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:431][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_40.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:432][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_45.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:433][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_5.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:434][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_50.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:435][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_55.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:436][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_60.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:437][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_65.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:438][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_70.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:439][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_75.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:440][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_80.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:441][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_85.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:442][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_90.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.31:442][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Health/Health_95.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.34:078][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Materials/TargetingMaterial'
+[2015.05.26-08.58.34:078][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Materials/TargetingMaterial' while loading ../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.05.26-08.58.34:078][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/ThirdPersonBP/Materials/TargetingMaterial
+[2015.05.26-08.58.34:084][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Materials/TargetingMaterial'
+[2015.05.26-08.58.34:084][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Materials/TargetingMaterial' while loading ../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.05.26-08.58.34:084][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/ThirdPersonBP/Materials/TargetingMaterial
+[2015.05.26-08.58.34:130][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/charge.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.34:130][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/fire_button.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.34:131][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/invisbility.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.34:132][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/lightning.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.34:132][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/Orb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.34:133][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/plus_crosshair.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.34:134][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/psychic_button.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.34:135][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/UI_health_mana.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.34:135][  0]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Textures/UI_health_mana_depleted.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-08.58.34:770][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/OBJ/lambert3'
+[2015.05.26-08.58.34:770][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/OBJ/lambert3' while loading ../../../../../../Users/Mike/Desktop/Vertical Slice/Content/StarterContent/Materials/OBJ/Map_Entirely.uasset.
+[2015.05.26-08.58.34:770][  0]LoadErrors:Error: Error /Game/StarterContent/Materials/OBJ/Map_Entirely : Can't find file for asset. /Game/StarterContent/Materials/OBJ/lambert3
+[2015.05.26-08.58.34:771][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/OBJ/lambert3'
+[2015.05.26-08.58.34:771][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/OBJ/lambert3' while loading ../../../../../../Users/Mike/Desktop/Vertical Slice/Content/StarterContent/Materials/OBJ/Map_Entirely.uasset.
+[2015.05.26-08.58.34:771][  0]LoadErrors:Error: Error /Game/StarterContent/Materials/OBJ/Map_Entirely : Can't find file for asset. /Game/StarterContent/Materials/OBJ/lambert3
+[2015.05.26-08.58.35:189][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/OBJ/lambert3'
+[2015.05.26-08.58.35:189][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/OBJ/lambert3.lambert3 Referenced by Map_Entirely
+[2015.05.26-08.58.35:189][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/OBJ/lambert3' while loading NULL.
+[2015.05.26-08.58.35:189][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/OBJ/lambert3.lambert3 Referenced by Map_Entirely
+[2015.05.26-08.58.35:803][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.26-08.58.35:807][  0]LogAIModule: Creating AISystem for world MiniTDmatch_2_NewMap
+[2015.05.26-08.58.35:808][  0]Cmd: MAP CHECKDEP
+[2015.05.26-08.58.35:808][  0]MapCheck: New page: MiniTDmatch_2_NewMap - May 27, 2015, 8:58:35 AM
+[2015.05.26-08.58.35:935][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 126.75ms to complete.
+[2015.05.26-08.58.35:935][  0]LogFileHelpers: Loading map 'MiniTDmatch_2_NewMap' took 7.246
+[2015.05.26-08.58.36:108][  0]LogCollectionManager: Loaded 0 collections in 0.002557 seconds
+[2015.05.26-08.58.36:119][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 1696 classes and 261 folders.
+[2015.05.26-08.58.36:159][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2015.05.26-08.58.36:201][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.26-08.58.36:202][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.26-08.58.36:210][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.26-08.58.36:239][  0]LogLoad: Full Startup: 22.08 seconds (BP compile: 2.97 seconds)
+[2015.05.26-08.58.36:713][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.05.26-08.58.36:974][  0]LogRenderer:Warning: Reallocating scene render targets to support 1008x464 (Frame:2).
+[2015.05.26-08.58.40:551][ 10]LogAssetRegistry: Asset discovery search completed in 13.6413 seconds
+[2015.05.26-08.58.46:931][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Map_Entirely)
+[2015.05.26-08.58.51:772][363]LogRenderer:Warning: Reallocating scene render targets to support 1008x728 (Frame:310).
+[2015.05.26-08.59.00:143][805]BlueprintLog: New page: Compile PlayerCharacter
+[2015.05.26-08.59.00:368][805]BlueprintEditorCompileResults: Info [0046.21] Compile of PlayerCharacter successful! [in 225 ms]
+[2015.05.26-08.59.02:005][900]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-08.59.02:009][900]LogPlayLevel: [PIE] Compiling MiniTDmatch_2_NewMap before PIE...
+[2015.05.26-08.59.02:184][900]LogPlayLevel: PIE:  Blueprint regeneration took 179 ms (1 blueprints)
+[2015.05.26-08.59.02:184][900]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 8:59:02 AM)
+[2015.05.26-08.59.02:226][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:226][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:226][900]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:226][900]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:226][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:226][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:227][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:227][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:227][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:227][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:227][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:227][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:227][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:227][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:227][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:227][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:228][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:228][900]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-08.59.02:245][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048666s)
+[2015.05.26-08.59.02:245][900]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2015.05.26-08.59.02:245][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap (0.049350s)
+[2015.05.26-08.59.02:298][900]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.26-08.59.02:302][900]LogAIModule: Creating AISystem for world MiniTDmatch_2_NewMap
+[2015.05.26-08.59.02:312][900]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 60) at 2015.05.26-20.59.02
+[2015.05.26-08.59.02:314][900]LogWorld: Bringing up level for play took: 0.011640
+[2015.05.26-08.59.02:339][900]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap 0.046
+[2015.05.26-08.59.02:375][900]LogRenderer:Warning: Reallocating scene render targets to support 1128x728 (Frame:895).
+[2015.05.26-08.59.11:435][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000809B93EDE0
+[2015.05.26-08.59.46:140][376]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Textures'
+[2015.05.26-08.59.50:738][625]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Animations'
+[2015.05.26-08.59.51:169][649]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Materials'
+[2015.05.26-08.59.51:823][685]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Animations'
+[2015.05.26-09.00.00:846][223]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Materials'
+[2015.05.26-09.00.04:808][450]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Animations'
+[2015.05.26-09.00.09:189][711]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.05.26-09.00.57:477][475]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.05.26-09.01.02:649][784]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2015.05.26-09.01.06:001][976]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character/Mayhem_Mage'
+[2015.05.26-09.01.11:452][302]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2015.05.26-09.01.15:016][515]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.05.26-09.01.16:220][586]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.05.26-09.01.17:054][635]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.26-09.01.19:915][803]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Animations'
+[2015.05.26-09.01.20:505][837]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.05.26-09.01.24:065][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/PlayerCharacter" FILE="../../../../../../Users/Mike/Desktop/Vertical Slice/Content/Character/PlayerCharacter.uasset" SILENT=true
+[2015.05.26-09.01.24:672][973]LogSavePackage: Save=584.586182ms
+[2015.05.26-09.01.24:672][973]LogSavePackage: Moving '../../../../../../Users/Mike/Desktop/Vertical Slice/Saved/PlayerCharacterBAB415E741B5CA6F0724218E5E58BB51.tmp' to '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/Character/PlayerCharacter.uasset'
+[2015.05.26-09.01.25:632][ 26]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-09.01.25:636][ 26]LogPlayLevel: [PIE] Compiling MiniTDmatch_2_NewMap before PIE...
+[2015.05.26-09.01.25:786][ 26]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.26-09.01.25:786][ 26]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.05.26-09.01.25:786][ 26]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.05.26-09.01.25:786][ 26]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.05.26-09.01.25:786][ 26]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.05.26-09.01.25:786][ 26]LogActorComponent: UnregisterComponent: (/Engine/Transient.AbilityController_0) Not registered. Aborting.
+[2015.05.26-09.01.25:811][ 26]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080A3931620
+[2015.05.26-09.01.25:813][ 26]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000809B333420
+[2015.05.26-09.01.25:834][ 26]LogPlayLevel: PIE:  Blueprint regeneration took 202 ms (1 blueprints)
+[2015.05.26-09.01.25:835][ 26]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 9:01:25 AM)
+[2015.05.26-09.01.25:866][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:866][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:867][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:867][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:867][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:867][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:867][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:867][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:867][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:867][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:867][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:867][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:868][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:868][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:868][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:868][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:868][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:868][ 26]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.25:885][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049543s)
+[2015.05.26-09.01.25:885][ 26]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2015.05.26-09.01.25:886][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap (0.050249s)
+[2015.05.26-09.01.25:926][ 26]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.26-09.01.25:929][ 26]LogAIModule: Creating AISystem for world MiniTDmatch_2_NewMap
+[2015.05.26-09.01.25:936][ 26]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 60) at 2015.05.26-21.01.25
+[2015.05.26-09.01.25:937][ 26]LogWorld: Bringing up level for play took: 0.007396
+[2015.05.26-09.01.25:968][ 26]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap -0.325
+[2015.05.26-09.01.30:312][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080A9C79620
+[2015.05.26-09.01.50:425][334]BlueprintLog: New page: Compile PlayerCharacter
+[2015.05.26-09.01.50:541][334]BlueprintEditorCompileResults: Info [0216.38] Compile of PlayerCharacter successful! [in 115 ms]
+[2015.05.26-09.01.51:131][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/PlayerCharacter" FILE="../../../../../../Users/Mike/Desktop/Vertical Slice/Content/Character/PlayerCharacter.uasset" SILENT=true
+[2015.05.26-09.01.51:634][354]LogSavePackage: Save=494.964569ms
+[2015.05.26-09.01.51:634][354]LogSavePackage: Moving '../../../../../../Users/Mike/Desktop/Vertical Slice/Saved/PlayerCharacter9D0622004DE8A88AA92F6BBBD50F1D31.tmp' to '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/Character/PlayerCharacter.uasset'
+[2015.05.26-09.01.52:042][374]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-09.01.52:046][374]LogPlayLevel: [PIE] Compiling MiniTDmatch_2_NewMap before PIE...
+[2015.05.26-09.01.52:188][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.26-09.01.52:223][374]LogPlayLevel: PIE:  Blueprint regeneration took 181 ms (1 blueprints)
+[2015.05.26-09.01.52:223][374]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 9:01:52 AM)
+[2015.05.26-09.01.52:254][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:254][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:255][374]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:255][374]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:255][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:255][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:255][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:255][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:255][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:255][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:255][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:255][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:256][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:256][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:256][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:256][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:256][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:256][374]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.01.52:273][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049368s)
+[2015.05.26-09.01.52:273][374]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2015.05.26-09.01.52:274][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap (0.050061s)
+[2015.05.26-09.01.52:310][374]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.26-09.01.52:313][374]LogAIModule: Creating AISystem for world MiniTDmatch_2_NewMap
+[2015.05.26-09.01.52:322][374]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 60) at 2015.05.26-21.01.52
+[2015.05.26-09.01.52:323][374]LogWorld: Bringing up level for play took: 0.009468
+[2015.05.26-09.01.52:347][374]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap 0.055
+[2015.05.26-09.01.58:479][705]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080AA1A54E0
+[2015.05.26-09.02.19:973][960]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.26-09.02.20:034][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000808EBA6840
+[2015.05.26-09.02.20:537][960]LogSavePackage: Save=473.743866ms
+[2015.05.26-09.02.20:537][960]LogSavePackage: Moving '../../../../../../Users/Mike/Desktop/Vertical Slice/Saved/MiniTDmatch_2_NewMap26CDB02643158C14D74360990B977FCB.tmp' to '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/Maps/MiniTDmatch_2_NewMap.umap'
+[2015.05.26-09.02.44:919][632]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Actors/Types/index.html?utm_source=editor&utm_medium=docs&utm_campaign=rightclick_viewdoc
+[2015.05.26-09.04.00:432][877]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.05.26-09.04.21:740][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.26-09.04.21:741][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.05.26-09.04.21:741][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2015.05.26-09.04.21:741][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2015.05.26-09.04.21:827][560]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.05.26-09.04.22:720][560]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000809B331580
+[2015.05.26-09.04.22:773][560]BlueprintEditorCompileResults: Info [0368.61] Compile of ThirdPersonCharacter successful! [in 947 ms]
+[2015.05.26-09.04.22:848][562]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.05.26-09.04.23:695][562]BlueprintEditorCompileResults: Info [0369.53] Compile of ThirdPersonCharacter successful! [in 846 ms]
+[2015.05.26-09.04.26:807][618]LogSavePackage: Save=2204.764404ms
+[2015.05.26-09.04.26:807][618]LogSavePackage: Moving '../../../../../../Users/Mike/Desktop/Vertical Slice/Saved/ThirdPersonCharacter932FB0C14B0DF8DBF068009957E7DD2B.tmp' to '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.05.26-09.04.27:586][705]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.26-09.04.27:590][705]LogPlayLevel: [PIE] Compiling AOEHealBall before PIE...
+[2015.05.26-09.04.27:686][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.26-09.04.27:686][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.AbilityController_0) Not registered. Aborting.
+[2015.05.26-09.04.27:736][705]LogPlayLevel: [PIE] Compiling HealerOrb before PIE...
+[2015.05.26-09.04.27:852][705]LogPlayLevel: [PIE] Compiling SlowBall before PIE...
+[2015.05.26-09.04.27:977][705]LogPlayLevel: [PIE] Compiling ThirdPersonGameMode before PIE...
+[2015.05.26-09.04.28:199][705]LogPlayLevel: [PIE] Compiling MiniTDmatch_2_NewMap before PIE...
+[2015.05.26-09.04.28:368][705]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.05.26-09.04.29:314][705]LogPlayLevel: PIE:  Blueprint regeneration took 1728 ms (6 blueprints)
+[2015.05.26-09.04.29:314][705]PIE: New page: PIE session: MiniTDmatch_2_NewMap (May 27, 2015, 9:04:29 AM)
+[2015.05.26-09.04.29:368][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:368][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateRoundTimer) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:369][705]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:369][705]LogBlueprint:Warning: FMemberReference::ResolveMember (TestForRoundEnd) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:369][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:369][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateHealth) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:369][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:369][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateTarget) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:369][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:369][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCooldowns) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:370][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:370][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAbility) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:370][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:370][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastBar) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:370][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:371][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateScore) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:371][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:371][705]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateCastFeedback) bSelfContext == true, but no scope supplied!
+[2015.05.26-09.04.29:394][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078657s)
+[2015.05.26-09.04.29:394][705]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2015.05.26-09.04.29:395][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap to /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap (0.079388s)
+[2015.05.26-09.04.29:436][705]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-09.04.29:475][705]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/Projectiles/AOEHealBall.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-09.04.29:486][705]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/Projectiles/HealerOrb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-09.04.29:496][705]LogLinker:Warning: Asset '../../../../../../Users/Mike/Desktop/Vertical Slice/Content/ThirdPersonBP/Blueprints/Projectiles/SlowBall.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.26-09.04.29:550][705]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.05.26-09.04.29:553][705]LogAIModule: Creating AISystem for world MiniTDmatch_2_NewMap
+[2015.05.26-09.04.29:559][705]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap.MiniTDmatch_2_NewMap up for play (max tick rate 0) at 2015.05.26-21.04.29
+[2015.05.26-09.04.29:560][705]LogWorld: Bringing up level for play took: 0.006287
+[2015.05.26-09.04.29:585][705]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MiniTDmatch_2_NewMap 1.292
+[2015.05.26-09.04.34:452][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080A9E7F560
+[2015.05.26-09.04.54:925][202]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.05.26-09.05.36:419][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.26-09.05.37:212][626]Cmd: QUIT_EDITOR
+[2015.05.26-09.05.37:526][626]LogExit: Preparing to exit.
+[2015.05.26-09.05.37:963][626]LogExit: Editor shut down
+[2015.05.26-09.05.37:964][626]LogExit: Transaction tracking system shut down
+[2015.05.26-09.05.37:970][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000809D937600
+[2015.05.26-09.05.37:970][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008086FDEDE0
+[2015.05.26-09.05.37:971][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080A3FBE700
+[2015.05.26-09.05.37:971][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080A47A8B80
+[2015.05.26-09.05.37:971][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080A3FF5B20
+[2015.05.26-09.05.37:971][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080A3FF5EE0
+[2015.05.26-09.05.37:971][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008090ABC860
+[2015.05.26-09.05.37:973][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000808F44B920
+[2015.05.26-09.05.37:973][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008091109E40
+[2015.05.26-09.05.37:974][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000809149F600
+[2015.05.26-09.05.38:066][626]LogExit: Object subsystem successfully closed.
+[2015.05.26-09.05.38:122][626]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (178)
+[2015.05.26-09.05.38:122][626]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.26-09.05.38:122][626]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.26-09.05.38:122][626]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.26-09.05.38:122][626]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.26-09.05.38:122][626]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.26-09.05.38:123][626]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.26-09.05.38:395][626]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.26-09.05.38:395][626]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.26-09.05.38:395][626]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.26-09.05.38:396][626]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.26-09.05.38:396][626]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.26-09.05.38:396][626]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.26-09.05.38:396][626]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.26-09.05.38:396][626]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.26-09.05.38:396][626]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.26-09.05.38:396][626]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.26-09.05.38:396][626]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.26-09.05.38:396][626]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.26-09.05.38:397][626]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.26-09.05.38:397][626]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.26-09.05.38:397][626]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.26-09.05.38:397][626]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.26-09.05.38:397][626]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.26-09.05.38:397][626]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.26-09.05.38:397][626]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.26-09.05.38:543][626]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.26-09.05.38:543][626]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.26-09.05.38:543][626]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.26-09.05.38:545][626]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.26-09.05.38:546][626]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.26-09.05.38:569][626]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.26-09.05.38:569][626]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.26-09.05.38:569][626]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.26-09.05.38:569][626]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.26-09.05.38:569][626]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.26-09.05.38:569][626]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.26-09.05.38:570][626]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.26-09.05.38:570][626]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.26-09.05.38:570][626]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.26-09.05.38:570][626]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.26-09.05.38:570][626]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.26-09.05.38:570][626]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.26-09.05.38:570][626]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.26-09.05.38:571][626]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.26-09.05.38:571][626]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.26-09.05.38:571][626]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.26-09.05.38:571][626]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.26-09.05.38:571][626]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.26-09.05.38:571][626]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.26-09.05.38:571][626]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.26-09.05.38:571][626]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.26-09.05.38:571][626]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.26-09.05.38:572][626]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.26-09.05.38:572][626]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.26-09.05.38:574][626]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.26-09.05.38:574][626]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.26-09.05.38:574][626]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.26-09.05.38:675][626]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.26-09.05.38:675][626]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.26-09.05.38:683][626]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.26-09.05.38:683][626]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.26-09.05.38:683][626]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.26-09.05.38:683][626]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.26-09.05.38:683][626]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.26-09.05.38:683][626]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.26-09.05.38:684][626]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.26-09.05.38:684][626]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.26-09.05.38:684][626]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.26-09.05.38:684][626]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.26-09.05.38:684][626]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.26-09.05.38:684][626]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.26-09.05.38:684][626]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.26-09.05.38:684][626]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.26-09.05.38:684][626]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.26-09.05.38:696][626]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.26-09.05.38:696][626]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.26-09.05.38:696][626]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.26-09.05.38:696][626]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.26-09.05.38:697][626]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.26-09.05.38:697][626]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.26-09.05.38:697][626]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.26-09.05.38:697][626]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.26-09.05.38:697][626]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.26-09.05.38:697][626]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.26-09.05.38:795][626]LogDerivedDataCache: Shutdown
+[2015.05.26-09.05.38:795][626]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.26-09.05.38:795][626]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.26-09.05.38:795][626]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.26-09.05.38:795][626]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.26-09.05.38:795][626]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.26-09.05.38:795][626]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.26-09.05.38:795][626]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.26-09.05.38:796][626]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.26-09.05.38:797][626]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.26-09.05.38:797][626]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.26-09.05.38:797][626]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.26-09.05.38:797][626]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.26-09.05.38:797][626]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.26-09.05.38:797][626]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.26-09.05.38:797][626]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.26-09.05.38:797][626]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.26-09.05.38:805][626]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.26-09.05.38:806][626]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.26-09.05.38:806][626]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.26-09.05.38:806][626]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.26-09.05.38:806][626]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.26-09.05.38:806][626]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.26-09.05.38:806][626]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.26-09.05.38:806][626]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.26-09.05.38:806][626]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.26-09.05.38:807][626]LogExit: Exiting.
+[2015.05.26-09.05.38:854][626]Log file closed, 05/26/15 21:05:38
